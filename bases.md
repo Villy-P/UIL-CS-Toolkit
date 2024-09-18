@@ -8,6 +8,7 @@
   - [Reading Base Numbers](#reading-base-numbers)
     - [Bases bigger than 10](#bases-bigger-than-10)
   - [Converting Between Bases](#converting-between-bases)
+    - [Converting Backwards](#converting-backwards)
 
 ## What is a base?
 
@@ -78,3 +79,14 @@ Convert each of those into base `10`, then combine them, and you have your numbe
 `1011` in base `10` is `11` or `B`.
 
 So, `11101011₂` in base `16` is `EB`.
+
+### Converting Backwards
+
+If we wish to convert `EB` back into base `2`, we can do that by once again using a block method.
+The formula this time will be `²√16`, were the superscript is the base we are going to, and the number within the square root symbol is our current base.
+Again, we need blocks of size `²√16 = 4`, so we take each character of `EB` (`E` and `B`), and convert them into base `2`, then make sure they have a block size of `4`.
+
+`E` in base `2` is `1110`, and `B` in base `2` is `1011`, so we have our original number of `11101011`.
+
+Make sure that if the number you get is of length `4`.
+If not, you can pad the left with `0's`.
