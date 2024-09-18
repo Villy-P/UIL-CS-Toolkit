@@ -7,6 +7,7 @@
   - [What is a base?](#what-is-a-base)
   - [Reading Base Numbers](#reading-base-numbers)
     - [Bases bigger than 10](#bases-bigger-than-10)
+  - [Converting Between Bases](#converting-between-bases)
 
 ## What is a base?
 
@@ -56,3 +57,24 @@ Instead, we use letters to represent them:
 `A: 10, B: 11, C: 12, D: 13, E: 14, F: 15`.
 
 So, if there we have `15` in base `10`, then that would be `F` in base `16`
+
+## Converting Between Bases
+
+Normally on the UIL test, the very first question will always be a base question.
+Usually they would have you do math, and the numbers are in different bases.
+One way to do this is to convert each number to base `10`, then do the math, then convert back into the bases of the answers, and see which one is right, but with certain bases, we can quickly convert between them.
+
+For example, base `2`. We can convert that easily to any base that is a power of `2`, such as `4`, `8`, or `16`.
+
+Lets try and convert `11101011₂` to base `16`. In order to that, you must first create `blocks`, and to get the block size, we can use `log₂(16)`, where the subscript is the base we are working with, and the number in parenthesis is the base we need to convert to.
+
+`log₂(16) = 4`, so we will be working with blocks of size `4`.
+
+Split the number into blocks of size `4`, starting from the left. With `11101011₂` we get two blocks: `1110` and `1011`.
+
+Convert each of those into base `10`, then combine them, and you have your number in base `16`:
+
+`1110` in base `10` is `14` or `E` (remember that `14` has two digits, so we have to convert it into a letter)
+`1011` in base `10` is `11` or `B`.
+
+So, `11101011₂` in base `16` is `EB`.
