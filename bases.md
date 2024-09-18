@@ -1,9 +1,12 @@
-# Nunber Bases
+# Number Bases
 
 ## Table of Contents
 
-1. [What is a base?](#what-is-a-base)
-2. [Reading Base Numbers](#reading-base-numbers)
+- [Number Bases](#number-bases)
+  - [Table of Contents](#table-of-contents)
+  - [What is a base?](#what-is-a-base)
+  - [Reading Base Numbers](#reading-base-numbers)
+    - [Bases bigger than 10](#bases-bigger-than-10)
 
 ## What is a base?
 
@@ -44,3 +47,12 @@ We can add all these up to get:
 `64(6) + 8(3) + 1 = 409`.
 
 Therefore, `0631₈` in base `10` is `409`.
+
+### Bases bigger than 10
+
+If there is a base bigger than 10, such as base `16`, we cannot say that there are `15` of a digit, because that number has two digits.
+Instead, we use letters to represent them:
+
+`A: 10, B: 11, C: 12, D: 13, E: 14, F: 15`.
+
+So, if there we have `15` in base `10`, then that would be `F` in base `16`
