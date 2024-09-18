@@ -9,6 +9,7 @@
     - [Bases bigger than 10](#bases-bigger-than-10)
   - [Converting Between Bases](#converting-between-bases)
     - [Converting Backwards](#converting-backwards)
+  - [Using Bases in Java](#using-bases-in-java)
 
 ## What is a base?
 
@@ -90,3 +91,13 @@ Again, we need blocks of size `²√16 = 4`, so we take each character of `EB` (
 
 Make sure that if the number you get is of length `4`.
 If not, you can pad the left with `0's`.
+
+## Using Bases in Java
+
+In Java, basic numbers are read in as base `10`, but you can also use prefixes for numbers to represent them as certain bases:
+
+| Base | Prefix | Example              |
+| ---- | ------ | -------------------- |
+| `2`  | `0b`   | `int i = 0b010 // 2` |
+| `8`  | `0`    | `int i = 010 // 8`   |
+| `16` | `0x`   | `int i = 0xA // 10`  |
