@@ -1,5 +1,11 @@
 # Number Bases Cheatsheet
 
+- [Number Bases Cheatsheet](#number-bases-cheatsheet)
+  - [Common Bases](#common-bases)
+  - [Letter Representations](#letter-representations)
+  - [Converting Between Bases](#converting-between-bases)
+  - [Base Prefixes](#base-prefixes)
+
 ## Common Bases
 
 | Base #  |     |     |        |       |      |     |     |     |
