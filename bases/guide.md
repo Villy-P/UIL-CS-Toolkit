@@ -92,6 +92,18 @@ Again, we need blocks of size `²√16 = 4`, so we take each character of `EB` (
 Make sure that if the number you get is of length `4`.
 If not, you can pad the left with `0's`.
 
+### Converting Using Java
+
+Java has a few methods to help you convert between bases, most notably `Integer.toString`:
+
+``` java
+Integer.toString(100, 2);
+```
+
+This will convert the number `100` to base `2`, and return a string.
+
+You can also use `Integer.toBinaryString`, which takes in your base `10` number and outputs the binary
+
 ## Using Bases in Java
 
 In Java, basic numbers are read in as base `10`, but you can also use prefixes for numbers to represent them as certain bases:
