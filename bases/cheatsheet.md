@@ -27,3 +27,11 @@
 * When converting to a lower base:
   * Take each block and make it into the base you are converting to.
   * If necessary, pad each block to the size it must be
+
+## Base Prefixes
+
+| Base | Prefix |
+| ---- | ------ |
+| `2`  | `0b`   |
+| `8`  | `0`    |
+| `16` | `0x`   |
