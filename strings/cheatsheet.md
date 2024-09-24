@@ -45,3 +45,15 @@ out.println(s.indexOf("ellooo")); // Prints out -1
 out.println(s.lastIndexOf("l"));  // Prints out 3
 out.println(s.charAt(3))          // Prints out 3
 ```
+
+## Converstions
+
+``` java
+String s;
+// String to char
+s.charAt(0);
+// String to int
+Integer.parseInt(s);
+// String to Integer (class)
+Integer.valueOf(s);
+```
