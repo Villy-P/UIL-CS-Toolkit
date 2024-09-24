@@ -33,13 +33,13 @@
 - When converting to a lower base:
   - Take each block and make it into the base you are converting to.
   - If necessary, pad each block to the size it must be
-  
+
 ## Java Functions
 
-| Function Name | Parameter list | Parameter #1 | Parameter #2 | Return |
-|-|-|-|-|-|
-| `String Integer.toString()` | `int num, int radix` | Number in base 10 | Base to convert to | Converted Number as a string |
-| `String Integer.toBinaryString()` | `int num` | Number in base 10 |  | Converted Number in Base 2 as a string |
+| Function Name & Parameter List                | Parameter #1      | Parameter #2       | Return                                 |
+| --------------------------------------------- | ----------------- | ------------------ | -------------------------------------- |
+| `String Integer.toString(int num, int radix)` | Number in base 10 | Base to convert to | Converted Number as a string           |
+| `String Integer.toBinaryString(int num)`      | Number in base 10 |                    | Converted Number in Base 2 as a string |
 
 ## Base Prefixes
 
