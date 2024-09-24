@@ -23,17 +23,17 @@ Indexes start at `0`
 
 ## Important Functions
 
-| Function Name & Parameter List           | Parameter List                                                                        | Return                                                                                                              |
-| ---------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| `int s.length()`                         |                                                                                       | `int`: the length of the string                                                                                     |
-| `String s.substring(int start, int end)` | `int start`: Start index of your substring <br> `int end` End index of your substring | `String`: A substring of `s` from indecies `start` to `end - 1`                                                     |
-| `String s.substring(int start)`          | `int start`: Start index of your substring                                            | `String` A substring for index `start` to the end of the string                                                     |
-| `int s.indexOf(String str)`              | `String str`: String to search for within the string                                  | `int`: if `str` is found inside `s`, then it gives the index where it is found, if not returns `-1`                 |
-| `int s.lastIndexOf(String str)`          | `String str`: String to search for within the string                                  | `int`: if `str` is found within `s`, it gives the index of the last occurence of that `str`, otherwise returns `-1` |
-| `char s.charAt(int i)`                   | `int i`: Index in the string                                                          | `char`: Returns the character at index `i`                                                                          |
-| `int s.compareTo(String str)`            | `String str`: String to compare to                                                    | `int`: returns the ascii difference between the first different characters going left to right                      |
-| `boolean equals(String other)`           | `String other`: String to compare to                                                  | `boolean`: `true` if they are equal to one another, `false` otherwise. **Do NOT use ==**                            |
-| `String[] split(String regex)`           | `String regex`: String to split by                                                    | `String[]`: Array with the string broken up by the regex                                                            |
+| Function Name     | Parameter List                                                                        | Return                                                                                                              |
+| ----------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `s.length()`      |                                                                                       | `int`: the length of the string                                                                                     |
+| `s.substring()`   | `int start`: Start index of your substring <br> `int end` End index of your substring | `String`: A substring of `s` from indecies `start` to `end - 1`                                                     |
+| `s.substring()`   | `int start`: Start index of your substring                                            | `String` A substring for index `start` to the end of the string                                                     |
+| `s.indexOf()`     | `String str`: String to search for within the string                                  | `int`: if `str` is found inside `s`, then it gives the index where it is found, if not returns `-1`                 |
+| `s.lastIndexOf()` | `String str`: String to search for within the string                                  | `int`: if `str` is found within `s`, it gives the index of the last occurence of that `str`, otherwise returns `-1` |
+| `s.charAt()`      | `int i`: Index in the string                                                          | `char`: Returns the character at index `i`                                                                          |
+| `s.compareTo()`   | `String str`: String to compare to                                                    | `int`: returns the ascii difference between the first different characters going left to right                      |
+| `s.equals()`      | `String other`: String to compare to                                                  | `boolean`: `true` if they are equal to one another, `false` otherwise. **Do NOT use ==**                            |
+| `s.split()`       | `String regex`: String to split by                                                    | `String[]`: Array with the string broken up by the regex                                                            |
 
 ## Function Examples
 

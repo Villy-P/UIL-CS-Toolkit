@@ -36,10 +36,10 @@
 
 ## Java Functions
 
-| Function Name & Parameter List                | Parameters                                                              | Return                                 |
-| --------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------- |
-| `String Integer.toString(int num, int radix)` | `int num`: Number in base 10 <br> `int radix`: Base to convert to | `String`: Converted Number as a string           |
-| `String Integer.toBinaryString(int num)`      | `int num`: Number in base 10                                                       | `String`: Converted Number in Base 2 as a string |
+| Function Name              | Parameters                                                        | Return                                           |
+| -------------------------- | ----------------------------------------------------------------- | ------------------------------------------------ |
+| `Integer.toString()`       | `int num`: Number in base 10 <br> `int radix`: Base to convert to | `String`: Converted Number as a string           |
+| `Integer.toBinaryString()` | `int num`: Number in base 10                                      | `String`: Converted Number in Base 2 as a string |
 
 ## Base Prefixes
 
