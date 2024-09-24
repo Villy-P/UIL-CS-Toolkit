@@ -9,6 +9,7 @@ Strings are **objects** (not primatives)
 // Creation
 String s = "Hello, World!";
 s = "Change the value";
+String s = new String("Hello, World");
 // Concatination
 s = s + "Addition";
 ```
