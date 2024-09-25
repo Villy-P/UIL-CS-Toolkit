@@ -48,3 +48,12 @@
 | `2`  | `0b`   |
 | `8`  | `0`    |
 | `16` | `0x`   |
+
+## Twos compilment (Signed values)
+
+- By default all values in Java are unsigned
+- With signed values, make the leftmost value negative:
+
+| Base # |      |     |     |     |     |     |     |     |
+| ------ | ---- | --- | --- | --- | --- | --- | --- | --- |
+| Base 2 | -128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
