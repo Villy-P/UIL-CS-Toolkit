@@ -1,5 +1,9 @@
 # Primitives Cheatsheet
 
+- [Primitives Cheatsheet](#primitives-cheatsheet)
+  - [Primitive Types](#primitive-types)
+  - [Integer Division](#integer-division)
+
 ## Primitive Types
 
 | Name      | Bits | Signed | Range                                                    |
