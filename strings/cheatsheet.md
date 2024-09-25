@@ -1,5 +1,12 @@
 # Strings Cheatsheet
 
+- [Strings Cheatsheet](#strings-cheatsheet)
+  - [String Basics](#string-basics)
+  - [String Indexes](#string-indexes)
+  - [Important Functions](#important-functions)
+  - [Function Examples](#function-examples)
+  - [Converstions](#converstions)
+
 ## String Basics
 
 Strings are **immutable** (cannot change)
