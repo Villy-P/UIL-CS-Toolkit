@@ -12,7 +12,8 @@ For every topics there are three different types of files that can appear:
 
 Heres a list of different topics (Note that some topics don't have certain files, they may be coming soon):
 
-| Topic                 | Cheatsheet                   | Guide                 | Questions                   |
-| --------------------- | ---------------------------- | --------------------- | --------------------------- |
-| [Bases](./bases/)     | [X](./bases/cheatsheet.md)   | [X](./bases/guide.md) | [X](./bases/questions.md)   |
-| [Strings](./strings/) | [X](./strings/cheatsheet.md) | N/A                   | [X](./strings/questions.md) |
+| Topic                       | Cheatsheet                      | Guide                 | Questions                   |
+| --------------------------- | ------------------------------- | --------------------- | --------------------------- |
+| [Bases](./bases/)           | [X](./bases/cheatsheet.md)      | [X](./bases/guide.md) | [X](./bases/questions.md)   |
+| [Strings](./strings/)       | [X](./strings/cheatsheet.md)    | N/A                   | [X](./strings/questions.md) |
+| [Primitives](./primitives/) | [X](./primitives/cheatsheet.md) |                       |                             |
