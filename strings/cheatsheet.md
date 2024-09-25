@@ -43,6 +43,9 @@ Indexes start at `0`
 | `s.equals()`           | `String other`: String to compare to                                                  | `boolean`: `true` if they are equal to one another, `false` otherwise. **Do NOT use ==**                                                                |
 | `s.equalsIgnoreCase()` | `String other`: String to compare to                                                  | `boolean`: `true` if they are equal to one another, ignoring whether or not the letters are uppercase / lowercase, `false` otherwise. **Do NOT use ==** |
 | `s.split()`            | `String regex`: String to split by                                                    | `String[]`: Array with the string broken up by the regex                                                                                                |
+| `s.contains()`         | `String str`: String to check against                                                 | `boolean`: Whether or not `str` appears within `s`                                                                                                      |
+| `s.startsWith()` | `String str`: String to check against | `boolean`: Whether or not `s` starts with `str` |
+| `s.endsWith()` | `String str`: String to check against | `boolean`: Whether or not `s` ends with `str` |
 
 ## Function Examples
 
@@ -60,8 +63,11 @@ out.println(s.compareTo("Hello")); // Prints out 0
 out.println(s.equals("Hello"));    // Prints out true
 out.println(s.equals("hello"));    // Prints out true
 out.println(s == "Hello");         // Prints out false
-out.println(s.split("e"));         // ["H", "llo"]
-out.println(s.split(""));          // ["H", "e", "l", "l", "o"]
+out.println(s.split("e"));         // Prints out ["H", "llo"]
+out.println(s.split(""));          // Prints out ["H", "e", "l", "l", "o"]
+out.println(s.contains("ll"));     // Prints out true
+out.println(s.startsWith("He"));   // Prints out true
+out.println(s.endsWith("lo"));     // Prints out true
 ```
 
 ## Converstions
