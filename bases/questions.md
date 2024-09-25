@@ -1,5 +1,7 @@
 # Questions on Bases
 
+## Question #1
+
 Which of these is NOT equivalent to `1100011₂ + 10011101₂`?
 
 1. `256₁₀` 
