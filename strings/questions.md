@@ -21,3 +21,27 @@ What is output by the code above?
     2. <code>MUssUssUppUBurnUng</code>
 </details>
 
+## Question #2:
+
+``` java
+String s = "pneumonoultramicroscop"+
+           "icsilicovolcanoconiosis";
+while (s.length() > 10) {
+    s = s.substring(3);
+}
+out.println(s);
+```
+
+What is output by the code segment above?
+
+1. `oconiosis`
+2. `noconiosis`
+3. `pneumonou`
+4. `pneumonoul`
+5. There is no output due to an error.
+
+<details> 
+    <summary>Answer </summary>
+    2. <code>noconiosis</code>
+</details>
+
