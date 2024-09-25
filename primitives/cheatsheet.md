@@ -3,6 +3,7 @@
 - [Primitives Cheatsheet](#primitives-cheatsheet)
   - [Primitive Types](#primitive-types)
   - [Integer Division](#integer-division)
+  - [Modulus](#modulus)
 
 ## Primitive Types
 
@@ -31,4 +32,14 @@
 16 / 5. = 3.2
 (double) 1 / 6 = 0.1666
 9d / 4 = 2.25
+```
+
+## Modulus
+
+- `%` symbol takes the remainder
+
+``` java
+16 % 2 == 0;
+x % 2 == 0;  // Is x even?
+x % 3 != 0;  // Is x NOT a multiple of 3
 ```
