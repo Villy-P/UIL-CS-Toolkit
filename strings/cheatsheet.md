@@ -5,7 +5,7 @@
   - [String Indexes](#string-indexes)
   - [Important Functions](#important-functions)
   - [Function Examples](#function-examples)
-  - [Converstions](#converstions)
+  - [Conversions](#conversions)
 
 ## String Basics
 
@@ -82,14 +82,12 @@ out.println(s.replace("ll", "oo")); // Prints out Heooo
 out.println(s.matches(".+"));       // Prints out true
 ```
 
-## Converstions
+## Conversions
 
 ``` java
 String s;
-// String to char
-s.charAt(0);
-// String to int
-Integer.parseInt(s);
-// String to Integer (class)
-Integer.valueOf(s);
+s.charAt(0);         // String to char
+Integer.parseInt(s); // String to int
+Integer.valueOf(s);  // String to Integer (class)
+String.valueOf(x);   // Any primitive (x) to String
 ```
