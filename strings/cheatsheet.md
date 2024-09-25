@@ -53,6 +53,8 @@ Indexes start at `0`
 | `s.replace()` / `s.replaceFirst()` | Both paramters allow use of regex <br> `String a` or `char a`: String to search for in `s` <br> `String b` or `char b`: String to replace the first instance with. | `String`: String with the first instance of `a` replaced with `b`                                                                                       |
 | `s.replaceAll()`                   | Both paramters allow use of regex <br> `String a` or `char a`: String to search for in `s` <br> `String b` or `char b`: String to replace each instance with.      | `String`: String with all instance of `a` replaced with `b`                                                                                             |
 | `s.matches()` | `String regex`: Regular Expression to check against | `boolean`: If String `s` is valid for regex `regex` |
+| `s.toUpperCase()` | | `String`: `s` with all characters converted to uppercase |
+| `s.toLowerCase()` | | `String`: `s` with all characters covnerted to lowercase |
 
 ## Function Examples
 
@@ -80,6 +82,8 @@ out.println(s.repeat(3));           // Prints out HelloHelloHello
 out.println(s.toCharArray());       // Prints out ['H', 'e', 'l', 'l', 'o']
 out.println(s.replace("ll", "oo")); // Prints out Heooo
 out.println(s.matches(".+"));       // Prints out true
+out.println(s.toUpperCase());       // Prints out HELLO
+out.println(s.toLowerCase());       // Prints out hello
 ```
 
 ## Conversions
