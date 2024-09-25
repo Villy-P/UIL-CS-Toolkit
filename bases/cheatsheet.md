@@ -4,7 +4,9 @@
   - [Common Bases](#common-bases)
   - [Letter Representations](#letter-representations)
   - [Converting Between Bases](#converting-between-bases)
+  - [Java Functions](#java-functions)
   - [Base Prefixes](#base-prefixes)
+  - [Twos compilment (Signed values)](#twos-compilment-signed-values)
 
 ## Common Bases
 
