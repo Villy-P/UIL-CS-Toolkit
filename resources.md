@@ -14,6 +14,11 @@
   - Far more challenging questions than others listed
   - Helpful for the programming section of the competition
 
+### Documention
+
+- [Java Documentation](https://docs.oracle.com/en/java/javase/18/docs/api/)
+  - Full list of all functions that are used inside Java
+
 ### Tutorials
 
 - [Regular Expressions](https://rexegg.com/)
