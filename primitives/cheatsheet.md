@@ -4,6 +4,7 @@
   - [Primitive Types](#primitive-types)
   - [Integer Division](#integer-division)
   - [Modulus](#modulus)
+  - [Number Suffixes](#number-suffixes)
   - [Default Values](#default-values)
   - [Links](#links)
 
@@ -44,6 +45,17 @@
 16 % 2 == 0;
 x % 2 == 0;  // Is x even?
 x % 3 != 0;  // Is x NOT a multiple of 3
+```
+
+## Number Suffixes
+
+Certain Data types have suffixes that specify what type they are.
+**Not using these may cause errors**
+
+``` java
+long l = 12345L;
+float f = 100.123f;
+double d = 9876.12345d;
 ```
 
 ## Default Values
