@@ -4,6 +4,7 @@
   - [Constants](#constants)
   - [Functions](#functions)
   - [Function Examples](#function-examples)
+  - [Random in range](#random-in-range)
 
 The `Math` class does **not** need to be imported
 
@@ -58,4 +59,13 @@ Math.hypot(3, -4) = 5.0;
 Math.floor(4.8) = 4.0;
 Math.ceil(4.8) = 5.0;
 Math.round(4.5) = 5;
+```
+
+## Random in range
+
+``` java
+// Returns a number between min (inclusive) and max (inclusive)
+public static randInRange(int min, int max) {
+    return (int)(Math.random() * ((max - min) + 1)) + min;
+}
 ```
