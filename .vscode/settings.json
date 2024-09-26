@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "resources",
-        "math"
+        "math",
+        "primitives"
     ]
 }

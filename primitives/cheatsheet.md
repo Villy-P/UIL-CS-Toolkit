@@ -4,6 +4,7 @@
   - [Primitive Types](#primitive-types)
   - [Integer Division](#integer-division)
   - [Modulus](#modulus)
+  - [Links](#links)
 
 ## Primitive Types
 
@@ -43,3 +44,8 @@
 x % 2 == 0;  // Is x even?
 x % 3 != 0;  // Is x NOT a multiple of 3
 ```
+
+## Links
+
+- [Official Primitives Guide](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
+- [W3 Schools Data Types Guide](https://www.w3schools.com/java/java_data_types.asp)
