@@ -95,6 +95,7 @@ out.println(s.toLowerCase());       // Prints out hello
 
 ``` java
 String s;
+i + "";              // Any number (i) to String
 s.charAt(0);         // String to char
 Integer.parseInt(s); // String to int
 Integer.valueOf(s);  // String to Integer (class)
