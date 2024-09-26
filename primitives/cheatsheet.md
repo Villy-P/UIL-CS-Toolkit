@@ -4,6 +4,7 @@
   - [Primitive Types](#primitive-types)
   - [Integer Division](#integer-division)
   - [Modulus](#modulus)
+  - [Default Values](#default-values)
   - [Links](#links)
 
 ## Primitive Types
@@ -44,6 +45,20 @@
 x % 2 == 0;  // Is x even?
 x % 3 != 0;  // Is x NOT a multiple of 3
 ```
+
+## Default Values
+
+If no value is specified, the types will default to:
+
+| Data Type              | Default Value |
+| ---------------------- | ------------- |
+| `byte`, `short`, `int` | `0`           |
+| `float`                | `0f`          |
+| `double`               | `0d`          |
+| `long`                 | `0L`          |
+| `char`                 | `'\u0000'`    |
+| `Object`               | `null`        |
+| `boolean`              | `false`       |
 
 ## Links
 
