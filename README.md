@@ -18,3 +18,5 @@ Heres a list of different topics (Note that some topics don't have certain files
 | [Math](./math/)             | [X](./math/)                    | N/A                   | N/A                         |
 | [Primitives](./primitives/) | [X](./primitives/cheatsheet.md) | N/A                   | N/A                         |
 | [Strings](./strings/)       | [X](./strings/cheatsheet.md)    | N/A                   | [X](./strings/questions.md) |
+
+There is a [global cheatsheet](./cheatsheet.md) with all cheatsheets combined into one.
