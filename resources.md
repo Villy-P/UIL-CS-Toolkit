@@ -21,6 +21,8 @@
 
 ### Tutorials
 
+- [W3 Schools Java Tutorial](https://www.w3schools.com/java/)
+  - Full tutorial and guide for all Java basics
 - [Regular Expressions](https://rexegg.com/)
   - A comprehensive list of all regular expresion tricks
 
