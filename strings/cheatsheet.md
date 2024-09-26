@@ -6,6 +6,7 @@
   - [Important Functions](#important-functions)
   - [Function Examples](#function-examples)
   - [Conversions](#conversions)
+  - [Links](#links)
 
 ## String Basics
 
@@ -99,3 +100,9 @@ Integer.parseInt(s); // String to int
 Integer.valueOf(s);  // String to Integer (class)
 String.valueOf(x);   // Any primitive (x) to String
 ```
+
+## Links
+
+- [Official Strings Documentation](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/lang/String.html)
+- [W3 Schools String Reference](https://www.w3schools.com/java/java_ref_string.asp)
+- [W3 Schools String Guide](https://www.w3schools.com/java/java_strings.asp)
