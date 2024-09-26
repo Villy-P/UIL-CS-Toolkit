@@ -39,6 +39,7 @@ All constants are `doubles`
 | `Math.ceil()`      | `double a`                | `double`: Rounds `a` up to the nearest whole number |
 | `Math.round()`     | `double a`                | `long`: `a` rounded to the nearest whole number     |
 | `Math.round()`     | `float a`                 | `int`: `a` rounded to the nearest whole number      |
+| `Math.random()`    |                           | `double`: Random number in the range `0 <= x < 1`   |
 
 ## Function Examples
 
