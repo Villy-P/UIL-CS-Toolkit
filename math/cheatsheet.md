@@ -5,6 +5,7 @@
   - [Functions](#functions)
   - [Function Examples](#function-examples)
   - [Random in range](#random-in-range)
+  - [Links](#links)
 
 The `Math` class does **not** need to be imported
 
@@ -69,3 +70,7 @@ public static randInRange(int min, int max) {
     return (int)(Math.random() * ((max - min) + 1)) + min;
 }
 ```
+
+## Links
+
+- [Math Class Documentation](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
