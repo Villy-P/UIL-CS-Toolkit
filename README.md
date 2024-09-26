@@ -20,3 +20,5 @@ Heres a list of different topics (Note that some topics don't have certain files
 | [Strings](./strings/)       | [X](./strings/cheatsheet.md)    | N/A                   | [X](./strings/questions.md) |
 
 There is a [global cheatsheet](./cheatsheet.md) with all cheatsheets combined into one.
+
+Also check out the [Class Reference Sheet](./class-reference-sheet.pdf). You get one at every competition.
