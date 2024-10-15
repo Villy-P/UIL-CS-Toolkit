@@ -1,34 +1,18 @@
 # Global Cheatsheet
 
-- [Global Cheatsheet](#global-cheatsheet)
-  - [Number Bases Cheatsheet](#number-bases-cheatsheet)
-    - [Common Bases](#common-bases)
-    - [Letter Representations](#letter-representations)
-    - [Converting Between Bases](#converting-between-bases)
-    - [Java Functions](#java-functions)
-    - [Base Prefixes](#base-prefixes)
-    - [Twos compilment (Signed values)](#twos-compilment-signed-values)
-  - [Math Cheatsheet](#math-cheatsheet)
-    - [Constants](#constants)
-    - [Functions](#functions)
-    - [Function Examples](#function-examples)
-    - [Random in range](#random-in-range)
-  - [Primitives Cheatsheet](#primitives-cheatsheet)
-    - [Primitive Types](#primitive-types)
-    - [Integer Division](#integer-division)
-    - [Modulus](#modulus)
-  - [Strings Cheatsheet](#strings-cheatsheet)
-    - [String Basics](#string-basics)
-    - [String Indexes](#string-indexes)
-    - [Important Functions](#important-functions)
-    - [Function Examples](#function-examples-1)
-    - [Conversions](#conversions)
-
 ## Number Bases Cheatsheet
+
+
+
+
+
+
+
+
 
 ### Common Bases
 
-| Base #  |     |     |        |       |      |     |     |     |
+| Base ##  |     |     |        |       |      |     |     |     |
 | ------- | --- | --- | ------ | ----- | ---- | --- | --- | --- |
 | Base 2  | 128 | 64  | 32     | 16    | 8    | 4   | 2   | 1   |
 | Base 8  |     |     | 32768  | 4096  | 512  | 64  | 8   | 1   |
@@ -74,17 +58,18 @@
 - By default all values in Java are unsigned
 - With signed values, make the leftmost value negative:
 
-| Base # |      |     |     |     |     |     |     |     |
+| Base ## |      |     |     |     |     |     |     |     |
 | ------ | ---- | --- | --- | --- | --- | --- | --- | --- |
 | Base 2 | -128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
 
 ## Math Cheatsheet
 
-- [Math Cheatsheet](#math-cheatsheet)
-  - [Constants](#constants)
-  - [Functions](#functions)
-  - [Function Examples](#function-examples)
-  - [Random in range](#random-in-range)
+
+
+
+
+
+
 
 The `Math` class does **not** need to be imported
 
@@ -150,12 +135,19 @@ public static randInRange(int min, int max) {
 }
 ```
 
+### Links
+
+- [Math Class Documentation](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
+
 ## Primitives Cheatsheet
 
-- [Primitives Cheatsheet](#primitives-cheatsheet)
-  - [Primitive Types](#primitive-types)
-  - [Integer Division](#integer-division)
-  - [Modulus](#modulus)
+
+
+
+
+
+
+
 
 ### Primitive Types
 
@@ -196,14 +188,45 @@ x % 2 == 0;  // Is x even?
 x % 3 != 0;  // Is x NOT a multiple of 3
 ```
 
+### Number Suffixes
+
+Certain Data types have suffixes that specify what type they are.
+**Not using these may cause errors**
+
+``` java
+long l = 12345L;
+float f = 100.123f;
+double d = 9876.12345d;
+```
+
+### Default Values
+
+If no value is specified, the types will default to:
+
+| Data Type              | Default Value |
+| ---------------------- | ------------- |
+| `byte`, `short`, `int` | `0`           |
+| `float`                | `0f`          |
+| `double`               | `0d`          |
+| `long`                 | `0L`          |
+| `char`                 | `'\u0000'`    |
+| `Object`               | `null`        |
+| `boolean`              | `false`       |
+
+### Links
+
+- [Official Primitives Guide](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
+- [W3 Schools Data Types Guide](https://www.w3schools.com/java/java_data_types.asp)
+
 ## Strings Cheatsheet
 
-- [Strings Cheatsheet](#strings-cheatsheet)
-  - [String Basics](#string-basics)
-  - [String Indexes](#string-indexes)
-  - [Important Functions](#important-functions)
-  - [Function Examples](#function-examples)
-  - [Conversions](#conversions)
+
+
+
+
+
+
+
 
 ### String Basics
 
@@ -292,10 +315,16 @@ out.println(s.toLowerCase());       // Prints out hello
 
 ``` java
 String s;
+i + "";              // Any number (i) to String
 s.charAt(0);         // String to char
 Integer.parseInt(s); // String to int
 Integer.valueOf(s);  // String to Integer (class)
 String.valueOf(x);   // Any primitive (x) to String
 ```
 
+### Links
+
+- [Official Strings Documentation](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/lang/String.html)
+- [W3 Schools String Reference](https://www.w3schools.com/java/java_ref_string.asp)
+- [W3 Schools String Guide](https://www.w3schools.com/java/java_strings.asp)
 
