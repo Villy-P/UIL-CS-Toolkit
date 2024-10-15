@@ -2,6 +2,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class Automation {
@@ -13,7 +14,9 @@ public class Automation {
     };
 
     public static void main(String[] args) throws IOException {
-        BufferedWriter writer = new BufferedWriter(new FileWriter("cheatsheet.md"));
+        FileWriter fileWriter = new FileWriter("cheatsheet.md");
+        PrintWriter printWriter = new PrintWriter(fileWriter);
+        printWriter.print("# Global Cheatsheet\n\n");
         for (String folder : folders) {
             String filePath = folder + "/cheatsheet.md";
 
@@ -21,11 +24,13 @@ public class Automation {
             Scanner sc = new Scanner(file).useDelimiter("\\Z");
             String content = sc.next();
             content = content.replaceAll("(#+)(.+)", "#$1$2");
+            content = content.replaceAll(".*- \\[.*\\]\\(#+.*\\)", "");
             System.out.println(content);
             
-            writer.write(content);
+            printWriter.print(content + "\n\n");
 
             sc.close();
         }
+        printWriter.close();
     }
 }
