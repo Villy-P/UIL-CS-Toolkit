@@ -3,6 +3,8 @@
 BigO Notation is a way to determine how fast a program can run, like sorts and searches.
 `n` is the number of items in the dataset.
 
+Each nested for loop adds a power to the complexity. For example, it goes from `n` to `n^2` to `n^3` to `n^4` etc.
+
 ## Time Complexities (in order from fastest to slowest)
 
 ![Image](../assets/bigo.png)
