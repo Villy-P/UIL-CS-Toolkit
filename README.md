@@ -15,6 +15,7 @@ Heres a list of different topics (Note that some topics don't have certain files
 | Topic                       | Cheatsheet                      | Guide                 | Questions                   |
 | --------------------------- | ------------------------------- | --------------------- | --------------------------- |
 | [Bases](./bases/)           | [X](./bases/cheatsheet.md)      | [X](./bases/guide.md) | [X](./bases/questions.md)   |
+| [BigO Notation](./bigo/)    | [X](./bigo/cheatsheet.md)       | N/A                   | N/A                         |
 | [Math](./math/)             | [X](./math/)                    | N/A                   | N/A                         |
 | [Primitives](./primitives/) | [X](./primitives/cheatsheet.md) | N/A                   | N/A                         |
 | [Strings](./strings/)       | [X](./strings/cheatsheet.md)    | N/A                   | [X](./strings/questions.md) |
