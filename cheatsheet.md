@@ -1,18 +1,50 @@
 # Global Cheatsheet
 
+- [Global Cheatsheet](#global-cheatsheet)
+  - [Number Bases Cheatsheet](#number-bases-cheatsheet)
+    - [Common Bases](#common-bases)
+    - [Letter Representations](#letter-representations)
+    - [Converting Between Bases](#converting-between-bases)
+    - [Java Functions](#java-functions)
+    - [Base Prefixes](#base-prefixes)
+    - [Twos compilment (Signed values)](#twos-compilment-signed-values)
+  - [BigO Notation Cheatsheet](#bigo-notation-cheatsheet)
+    - [Time Complexities (in order from fastest to slowest)](#time-complexities-in-order-from-fastest-to-slowest)
+      - [`O(1)` - Constant Time](#o1---constant-time)
+      - [`O(log(n))` - Logarithmic Time](#ologn---logarithmic-time)
+      - [`O(n)` - Linear Time](#on---linear-time)
+      - [`O(n*log(n))` - Loglinear Time](#onlogn---loglinear-time)
+      - [`O(n^2)` - Quadratic Time](#on2---quadratic-time)
+      - [`O(2^n)` - Exponential Time](#o2n---exponential-time)
+      - [`O(n!)` - Factorial Time](#on---factorial-time)
+    - [Links](#links)
+  - [Math Cheatsheet](#math-cheatsheet)
+    - [Constants](#constants)
+    - [Functions](#functions)
+    - [Function Examples](#function-examples)
+    - [Random in range](#random-in-range)
+    - [Links](#links-1)
+  - [Primitives Cheatsheet](#primitives-cheatsheet)
+    - [Primitive Types](#primitive-types)
+    - [Integer Division](#integer-division)
+    - [Modulus](#modulus)
+    - [Number Suffixes](#number-suffixes)
+    - [Default Values](#default-values)
+    - [Links](#links-2)
+  - [Strings Cheatsheet](#strings-cheatsheet)
+    - [String Basics](#string-basics)
+    - [String Indexes](#string-indexes)
+    - [Important Functions](#important-functions)
+    - [Function Examples](#function-examples-1)
+    - [Conversions](#conversions)
+    - [Links](#links-3)
+
+
 ## Number Bases Cheatsheet
-
-
-
-
-
-
-
-
 
 ### Common Bases
 
-| Base ##  |     |     |        |       |      |     |     |     |
+| Base ## |     |     |        |       |      |     |     |     |
 | ------- | --- | --- | ------ | ----- | ---- | --- | --- | --- |
 | Base 2  | 128 | 64  | 32     | 16    | 8    | 4   | 2   | 1   |
 | Base 8  |     |     | 32768  | 4096  | 512  | 64  | 8   | 1   |
@@ -59,17 +91,103 @@
 - With signed values, make the leftmost value negative:
 
 | Base ## |      |     |     |     |     |     |     |     |
-| ------ | ---- | --- | --- | --- | --- | --- | --- | --- |
-| Base 2 | -128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
+| ------- | ---- | --- | --- | --- | --- | --- | --- | --- |
+| Base 2  | -128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
+
+## BigO Notation Cheatsheet
+
+BigO Notation is a way to determine how fast a program can run, like sorts and searches.
+`n` is the number of items in the dataset.
+
+Each nested for loop adds a power to the complexity. For example, it goes from `n` to `n^2` to `n^3` to `n^4` etc.
+
+Complexities next to each other are added. For example, a `O(n)` algorithm next to a `O(n^2)` algorithm, the final notation is `O(n + n^2)`.
+
+> Two `O(1)` algorithms added together are still `O(1)`
+
+### Time Complexities (in order from fastest to slowest)
+
+![Image](../assets/bigo.png)
+
+#### `O(1)` - Constant Time
+
+This is instant time. This includes things like:
+
+- Math Equations `(10 + 2)`
+- Printing
+- Accessing elements of an `Array` / `Arraylist`
+- Accessing elements of a `HashMap` / `HashSet`
+
+#### `O(log(n))` - Logarithmic Time
+
+This is essentially running a `for i loop` from `0 to n` and another `for loop` running from `i to n`. Includes things such as:
+
+- Worst Space Complexity of `Quicksort`
+
+Example:
+
+```java
+for (int i = 0; i < n; i++)
+    for (int j = i; j < n; j++)
+        System.out.println(i + j);
+```
+
+#### `O(n)` - Linear Time
+
+A basic `for loop`, where `n` is the number of elements. This includes:
+
+- Looping over an `Array` / `Arraylist`
+- Basic Loop search
+
+Example:
+
+```java
+for (int i = 0; i < n; i++)
+    System.out.println(i);
+```
+
+#### `O(n*log(n))` - Loglinear Time
+
+Loglinear time. Includes:
+
+- Best / Average case `Quicksort`
+- Best / Average / Worse case `Mergesort`
+- Best / Average / Worse case `Heapsort`
+
+#### `O(n^2)` - Quadratic Time
+
+Two `for loops`, each looping from `0 to n`. Includes:
+
+- Worst case `Quicksort`
+- Average / Worst case `Bubble Sort`
+- Average / Worst case `Insertion Sort`
+- Best / Average / Worst case `Selection Sort`
+
+Example:
+
+```java
+for (int i = 0; i < n; i++)
+    for (int j = 0; j < n; j++)
+        System.out.println(i + j);
+```
+
+#### `O(2^n)` - Exponential Time
+
+Includes things like:
+
+- Getting Combinations
+
+#### `O(n!)` - Factorial Time
+
+Worst time complexity. Includes things like:
+
+- Traveling Salesman Problem
+
+### Links
+
+- [BigO Examples](https://javachallengers.com/big-o-notation-explanation/)
 
 ## Math Cheatsheet
-
-
-
-
-
-
-
 
 The `Math` class does **not** need to be imported
 
@@ -85,7 +203,6 @@ All constants are `doubles`
 ### Functions
 
 > Functions with a type of `number` accept types `double`, `float`, `int`, `long`
-> 
 > The return type will match the parameter type
 
 | Function Name      | Parameters                | Return                                              |
@@ -109,7 +226,7 @@ All constants are `doubles`
 
 ### Function Examples
 
-``` java
+```java
 Math.abs(-3) = 3;
 Math.pow(7, 2) = 49.0;
 Math.sqrt(64) = 8.0;
@@ -128,7 +245,7 @@ Math.round(4.5) = 5;
 
 ### Random in range
 
-``` java
+```java
 // Returns a number between min (inclusive) and max (inclusive)
 public static randInRange(int min, int max) {
     return (int)(Math.random() * ((max - min) + 1)) + min;
@@ -140,14 +257,6 @@ public static randInRange(int min, int max) {
 - [Math Class Documentation](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
 
 ## Primitives Cheatsheet
-
-
-
-
-
-
-
-
 
 ### Primitive Types
 
@@ -167,7 +276,7 @@ public static randInRange(int min, int max) {
 - Division between two `number` values (`byte`, `short`, `int`, `long`) will truncate the decimal.
 - Division between a decimal value (`float`, `double`) and a `number` value will produce a decimal.
 
-``` java
+```java
 2 / 3 = 0
 16 / 5 = 3
 8 / 4 = 2
@@ -182,7 +291,7 @@ public static randInRange(int min, int max) {
 
 - `%` symbol takes the remainder
 
-``` java
+```java
 16 % 2 == 0;
 x % 2 == 0;  // Is x even?
 x % 3 != 0;  // Is x NOT a multiple of 3
@@ -193,7 +302,7 @@ x % 3 != 0;  // Is x NOT a multiple of 3
 Certain Data types have suffixes that specify what type they are.
 **Not using these may cause errors**
 
-``` java
+```java
 long l = 12345L;
 float f = 100.123f;
 double d = 9876.12345d;
@@ -219,14 +328,6 @@ If no value is specified, the types will default to:
 - [W3 Schools Data Types Guide](https://www.w3schools.com/java/java_data_types.asp)
 
 ## Strings Cheatsheet
-
-
-
-
-
-
-
-
 
 ### String Basics
 
@@ -283,7 +384,7 @@ Indexes start at `0`
 
 ### Function Examples
 
-``` java
+```java
 String s = "Hello";
 
 out.println(s.length());            // Prints out 5
@@ -313,7 +414,7 @@ out.println(s.toLowerCase());       // Prints out hello
 
 ### Conversions
 
-``` java
+```java
 String s;
 i + "";              // Any number (i) to String
 s.charAt(0);         // String to char
@@ -327,4 +428,3 @@ String.valueOf(x);   // Any primitive (x) to String
 - [Official Strings Documentation](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/lang/String.html)
 - [W3 Schools String Reference](https://www.w3schools.com/java/java_ref_string.asp)
 - [W3 Schools String Guide](https://www.w3schools.com/java/java_strings.asp)
-

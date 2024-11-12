@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class CreateCheatsheet {
     public static String[] folders = {
         "bases",
+        "bigo",
         "math",
         "primitives",
         "strings"
