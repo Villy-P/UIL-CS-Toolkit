@@ -1,5 +1,17 @@
 # BigO Notation Cheatsheet
 
+- [BigO Notation Cheatsheet](#bigo-notation-cheatsheet)
+  - [Time Complexities (in order from fastest to slowest)](#time-complexities-in-order-from-fastest-to-slowest)
+    - [`O(1)` - Constant Time](#o1---constant-time)
+    - [`O(log(n))` - Logarithmic Time](#ologn---logarithmic-time)
+    - [`O(n)` - Linear Time](#on---linear-time)
+    - [`O(n*log(n))` - Loglinear Time](#onlogn---loglinear-time)
+    - [`O(n^2)` - Quadratic Time](#on2---quadratic-time)
+    - [`O(2^n)` - Exponential Time](#o2n---exponential-time)
+    - [`O(n!)` - Factorial Time](#on---factorial-time)
+  - [Links](#links)
+
+
 BigO Notation is a way to determine how fast a program can run, like sorts and searches.
 `n` is the number of items in the dataset.
 
