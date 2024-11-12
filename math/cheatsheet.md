@@ -21,7 +21,6 @@ All constants are `doubles`
 ## Functions
 
 > Functions with a type of `number` accept types `double`, `float`, `int`, `long`
-> 
 > The return type will match the parameter type
 
 | Function Name      | Parameters                | Return                                              |

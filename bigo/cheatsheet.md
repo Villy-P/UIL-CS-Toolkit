@@ -11,7 +11,6 @@
     - [`O(n!)` - Factorial Time](#on---factorial-time)
   - [Links](#links)
 
-
 BigO Notation is a way to determine how fast a program can run, like sorts and searches.
 `n` is the number of items in the dataset.
 
