@@ -37,9 +37,14 @@ Loglinear time. Includes:
 - Best / Average / Worse case `Mergesort`
 - Best / Average / Worse case `Heapsort`
 
-### `O(n^2)`
+### `O(n^2)` - Quadratic Time
 
-Two `for loops`, each looping from `0 to n`
+Two `for loops`, each looping from `0 to n`. Includes:
+
+- Worst case `Quicksort`
+- Average / Worst case `Bubble Sort`
+- Average / Worst case `Insertion Sort`
+- Best / Average / Worst case `Selection Sort`
 
 ## Links
 
