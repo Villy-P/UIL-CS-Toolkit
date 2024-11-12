@@ -37,6 +37,13 @@ A basic `for loop`, where `n` is the number of elements. This includes:
 - Looping over an `Array` / `Arraylist`
 - Basic Loop search
 
+Example:
+
+``` java
+for (int i = 0; i < n; i++)
+    System.out.println(i);
+```
+
 ### `O(n*log(n))` - Loglinear Time
 
 Loglinear time. Includes:
