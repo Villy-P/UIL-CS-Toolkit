@@ -5,6 +5,10 @@ BigO Notation is a way to determine how fast a program can run, like sorts and s
 
 Each nested for loop adds a power to the complexity. For example, it goes from `n` to `n^2` to `n^3` to `n^4` etc.
 
+Complexities next to each other are added. For example, a `O(n)` algorithm next to a `O(n^2)` algorithm, the final notation is `O(n + n^2)`.
+
+> Two `O(1)` algorithms added together are still `O(1)`
+
 ## Time Complexities (in order from fastest to slowest)
 
 ![Image](../assets/bigo.png)
@@ -62,6 +66,14 @@ Two `for loops`, each looping from `0 to n`. Includes:
 - Average / Worst case `Bubble Sort`
 - Average / Worst case `Insertion Sort`
 - Best / Average / Worst case `Selection Sort`
+
+Example:
+
+``` java
+for (int i = 0; i < n; i++)
+    for (int j = 0; j < n; j++)
+        System.out.println(i + j);
+```
 
 ### `O(2^n)` - Exponential Time
 
