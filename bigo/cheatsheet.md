@@ -46,6 +46,18 @@ Two `for loops`, each looping from `0 to n`. Includes:
 - Average / Worst case `Insertion Sort`
 - Best / Average / Worst case `Selection Sort`
 
+### `O(2^n)` - Exponential Time
+
+Includes things like:
+
+- Getting Combinations
+
+### `O(n!)` - Factorial Time
+
+Worst time complexity. Includes things like:
+
+- Traveling Salesman Problem
+
 ## Links
 
 - [BigO Examples](https://javachallengers.com/big-o-notation-explanation/)
