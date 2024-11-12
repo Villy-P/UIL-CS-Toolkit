@@ -11,7 +11,7 @@ BigO Notation is a way to determine how fast a program can run, like sorts and s
 
 This is instant time. This includes things like:
 
-- Math Equations
+- Math Equations `(10 + 2)`
 - Printing
 - Accessing elements of an `Array` / `Arraylist`
 - Accessing elements of a `HashMap` / `HashSet`
@@ -21,6 +21,14 @@ This is instant time. This includes things like:
 This is essentially running a `for i loop` from `0 to n` and another `for loop` running from `i to n`. Includes things such as:
 
 - Worst Space Complexity of `Quicksort`
+
+Example:
+
+``` java
+for (int i = 0; i < n; i++)
+    for (int j = i; j < n; j++)
+        System.out.println(i + j);
+```
 
 ### `O(n)` - Linear Time
 
