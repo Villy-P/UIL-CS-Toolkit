@@ -1,25 +1,38 @@
-# UIL-CS-Toolkit
+# sv
 
-A cheatsheet for every topic you need to know for the UIL Computer Science Multiple Choice Exams
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## How to use
+## Creating a project
 
-For every topics there are three different types of files that can appear:
+If you're seeing this, you've probably already done this step. Congrats!
 
-1. Cheatsheets: Quick and consice things that you should know for the test.
-2. Guides: More indepth guide for people new to the topic.
-3. Questions: Questions you can try to perfect your skills.
+```bash
+# create a new project in the current directory
+npx sv create
 
-Heres a list of different topics (Note that some topics don't have certain files, they may be coming soon):
+# create a new project in my-app
+npx sv create my-app
+```
 
-| Topic                       | Cheatsheet                      | Guide                 | Questions                   |
-| --------------------------- | ------------------------------- | --------------------- | --------------------------- |
-| [Bases](./bases/)           | [X](./bases/cheatsheet.md)      | [X](./bases/guide.md) | [X](./bases/questions.md)   |
-| [BigO Notation](./bigo/)    | [X](./bigo/cheatsheet.md)       | N/A                   | N/A                         |
-| [Math](./math/)             | [X](./math/)                    | N/A                   | N/A                         |
-| [Primitives](./primitives/) | [X](./primitives/cheatsheet.md) | N/A                   | N/A                         |
-| [Strings](./strings/)       | [X](./strings/cheatsheet.md)    | N/A                   | [X](./strings/questions.md) |
+## Developing
 
-There is a [global cheatsheet](./cheatsheet.md) with all cheatsheets combined into one.
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-Also check out the [Class Reference Sheet](./class-reference-sheet.pdf). You get one at every competition.
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
