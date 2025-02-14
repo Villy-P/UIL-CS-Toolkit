@@ -13,3 +13,10 @@
         </div>
     </div>
 </div>
+<div class="w-full flex items-center justify-center flex-wrap">
+    <div class="w-80 h-fit shadow shadow-black p-5 m-5 rounded-lg bg-[#161616] hover:bg-[#1c1c1c]">
+        <h2 class="text-2xl font-bold text-center pb-6">Resources</h2>
+        <p>View Resources relating to Java topics. This can range from other websites to practice Java programming, to Java fundamentals, to focusing on certain subtopics like strings or bases. Practice programming with LeetCode or study Java fundamentals with W3Schools</p>
+        <Button text="View Resources" href="/resources" arrow className="m-auto mt-10"/>
+    </div>
+</div>
