@@ -2,6 +2,11 @@
 
 Use these resources to practice for upcoming UIL tests, along with learning more about Java through practice.
 
+***test***
+**test**
+*test*
+`test`
+
 ## Links
 
 ### Places to Practice
