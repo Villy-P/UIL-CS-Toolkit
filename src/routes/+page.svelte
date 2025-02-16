@@ -20,8 +20,13 @@
         <Button text="View Resources" href="/resources" arrow className="m-auto mt-3"/>
     </div>
     <div class="w-80 h-[380px] shadow shadow-black p-5 m-5 rounded-lg bg-[#161616] hover:bg-[#1c1c1c]">
+        <h2 class="text-2xl font-bold text-center pb-6">Reference Sheet</h2>
+        <p>Check out reference material that is given to you on the day of the UIL competition.</p>
+        <Button text="Reference Sheet" href="/reference" arrow className="m-auto mt-3"/>
+    </div>
+    <div class="w-80 h-[380px] shadow shadow-black p-5 m-5 rounded-lg bg-[#161616] hover:bg-[#1c1c1c]">
         <h2 class="text-2xl font-bold text-center pb-6">Topics</h2>
         <p>View different topics to help you get better, from strings, arrays, bases, Big O, etc. Quickly go over important topics using cheatsheets and view long form resources for learning more about topics.</p>
-        <Button text="View Resources" href="/resources" arrow className="m-auto mt-3"/>
+        <Button text="View Topics" href="/topics" arrow className="m-auto mt-3"/>
     </div>
 </div>
