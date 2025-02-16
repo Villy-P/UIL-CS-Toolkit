@@ -9,7 +9,7 @@
         <h1 class="text-6xl font-extrabold">UIL Computer Science Toolkit</h1>
         <p class="text-md">An all-in-one toolkit for everything you need for the University Interscholastic League Computer Science Competition, from cheatsheets and guides about important topics, to questions directly from UIL tests to help you improve.</p>
         <div class="flex gap-3">
-            <UnderlineButton text="Reference Sheet" href="/topics"/>
+            <UnderlineButton text="Reference Sheet" href="/reference"/>
             <Button text="View Topics" href="/topics" arrow/>
         </div>
     </div>
