@@ -1,5 +1,6 @@
 <script>
 	import Button from "../components/Button.svelte";
+	import Footer from "../components/Footer.svelte";
 	import UnderlineButton from "../components/UnderlineButton.svelte";
 </script>
 
@@ -30,3 +31,4 @@
         <Button text="View Topics" href="/topics" arrow className="m-auto mt-3"/>
     </div>
 </div>
+<Footer/>
