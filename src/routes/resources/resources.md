@@ -1,5 +1,7 @@
 # UIL Programming Resources
 
+Use these resources to practice for upcoming UIL tests, along with learning more about Java through practice.
+
 ## Links
 
 ### Places to Practice
