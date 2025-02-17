@@ -1,14 +1,25 @@
 <script lang="ts">
     import { page } from '$app/state';
     import { topics } from '../../../../data/topics';
-    import strings from '../../../../../strings/cheatsheet.md?raw';
 	import Markdown from '../../../../components/Markdown.svelte';
+	import { onMount } from 'svelte';
 
     const topic: number | null = topics[page.params.slug];
+
+    let textContent: undefined | string;
+
+    onMount(() => {
+        fetch(`/${page.params.part}/${page.params.slug}.md`)
+            .then(res => res.text())
+            .then(text => textContent = text)
+            .catch(err => console.error(err));
+    });
 </script>
 
 {#snippet partSelection(part: string)}
-    <a class="!text-white grow flex justify-center pb-2 border-b-2 {page.params.part === part ? 'border-gray-300' : 'border-gray-500'} cursor-pointer capitalize" href="{part}">
+    <a class="!text-white grow flex justify-center pb-2 border-b-2 
+       {page.params.part === part ? 'border-gray-300' : 'border-gray-500'} 
+       cursor-pointer capitalize" href="{part}">
         {part}
     </a>
 {/snippet}
@@ -33,6 +44,8 @@
                 {@render partSelection('questions')}
             {/if}
         </div>
-        <Markdown content={strings}/>
+        {#if textContent}
+            <Markdown content={textContent}/>
+        {/if}
     </div>
 {/if}

@@ -1,6 +1,7 @@
 <script lang="ts">
     import markdownit from 'markdown-it';
     import markdownit_hightlightjs from 'markdown-it-highlightjs';
+    import markdownit_collapsible from "markdown-it-collapsible";
 
     import hljs from 'highlight.js/lib/core';
     import java from 'highlight.js/lib/languages/javascript';
@@ -12,7 +13,7 @@
 
     function convertMarkdownToHTML(markdown: string) {
         hljs.registerLanguage('javascript', java)
-        const md = markdownit().use(markdownit_hightlightjs, { hljs });
+        const md = markdownit().use(markdownit_collapsible).use(markdownit_hightlightjs, { hljs });
         return md.render(markdown);
     }
 </script>
