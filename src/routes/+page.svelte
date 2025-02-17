@@ -3,7 +3,7 @@
 	import UnderlineButton from "../components/UnderlineButton.svelte";
 </script>
 
-<div class="w-full h-screen flex items-center border-b-2 border-gray-400">
+<div class="w-full h-[calc(100vh-56px)] flex items-center border-b-2 border-gray-400">
     <div class="px-10 flex flex-col gap-4">
         <h1 class="!text-6xl font-extrabold">UIL Computer Science Toolkit</h1>
         <p class="text-md">An all-in-one toolkit for everything you need for the University Interscholastic League Computer Science Competition, from cheatsheets and guides about important topics, to questions directly from UIL tests to help you improve.</p>

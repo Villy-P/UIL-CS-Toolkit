@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import 'highlight.js/styles/base16/chalk.min.css';
 
 body {
     background-color: #121212;
@@ -29,8 +30,12 @@ h6 {
     @apply text-base font-light;
 }
 
+pre > code {
+    @apply p-3
+}
+
 code {
-    @apply font-mono bg-[#1c1c1c] px-1 py-0.5 rounded-sm;
+    @apply font-mono bg-[#1c1c1c] px-1 py-0.5 rounded-sm inline-block;
 }
 
 li {
@@ -43,4 +48,12 @@ ul {
 
 a {
     @apply text-blue-400 hover:text-blue-500 hover:underline;
+}
+
+th, td {
+    @apply border-2 border-t-0 border-gray-400 px-1 py-0.5;
+}
+
+th {
+    @apply !border-t-2;
 }

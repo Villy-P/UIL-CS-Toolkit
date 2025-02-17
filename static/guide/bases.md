@@ -116,6 +116,6 @@ In Java, basic numbers are read in as base `10`, but you can also use prefixes f
 
 ## Negative Numbers
 
-In order to use negative numbers, we use somethings called `twos compilemnt` and make the values `signed`.
+In order to use negative numbers, we use somethings called `twos compilment` and make the values `signed`.
 We take the leftmost value and make it negative, so the range changes from `0 to 256` to `-128 to 127`.
 By default, all primitives are `signed` in Java
