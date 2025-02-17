@@ -1,4 +1,4 @@
-# UIL CS Cheatsheet
+# UIL CS Toolkit
 
 An all-in-one toolkit for everything you need for the University Interscholastic League Computer Science Competition, from cheatsheets and guides about important topics, to questions directly from UIL tests to help you improve.
 

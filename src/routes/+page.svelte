@@ -32,4 +32,4 @@
     </div>
 </div>
 
-<SEO title="UIL CS Cheatsheet" description="An all-in-one toolkit for everything you need for the University Interscholastic League Computer Science Competition, from cheatsheets and guides about important topics, to questions directly from UIL tests to help you improve."/>
+<SEO title="UIL CS Toolkit" description="An all-in-one toolkit for everything you need for the University Interscholastic League Computer Science Competition, from cheatsheets and guides about important topics, to questions directly from UIL tests to help you improve."/>
