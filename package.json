@@ -37,6 +37,7 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
+		"@sindresorhus/slugify": "^2.2.1",
 		"highlight.js": "^11.11.1",
 		"markdown-it": "^14.1.0",
 		"markdown-it-anchor": "^9.2.0",

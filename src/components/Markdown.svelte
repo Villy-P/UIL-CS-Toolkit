@@ -6,6 +6,9 @@
 
     import hljs from 'highlight.js/lib/core';
     import java from 'highlight.js/lib/languages/javascript';
+
+    import slugify from '@sindresorhus/slugify';
+
 	import { onMount } from 'svelte';
 
     let { content }: {
@@ -14,7 +17,7 @@
 
     function convertMarkdownToHTML(markdown: string) {
         hljs.registerLanguage('javascript', java)
-        const md = markdownit().use(markdownit_collapsible).use(markdownit_hightlightjs, { hljs }).use(markdownit_anchor);
+        const md = markdownit().use(markdownit_collapsible).use(markdownit_hightlightjs, { hljs }).use(markdownit_anchor, { slugify: s => slugify(s) });
         return md.render(markdown);
     }
 </script>
