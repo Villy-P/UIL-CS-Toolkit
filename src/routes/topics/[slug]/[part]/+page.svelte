@@ -31,7 +31,11 @@
         <a href="/topics">Go to Topics Page</a>
     </div>
 {:else}
-    <h1 class="capitalize text-center py-10">{page.params.slug}</h1>
+    {#if page.params.slug === 'bigo'}
+        <h1 class="capitalize text-center py-10">BigO</h1>
+    {:else}
+        <h1 class="capitalize text-center py-10">{page.params.slug}</h1>
+    {/if}
     <div class="flex flex-col gap-4 w-11/12 m-auto pb-2">
         <div class="flex w-full m-auto">
             {#if (topic & 100) === 100}
