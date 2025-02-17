@@ -6,9 +6,9 @@
 
     const topic: number | null = topics[page.params.slug];
 
-    let textContent: undefined | string;
+    let textContent: undefined | string = $state(undefined);
 
-    onMount(() => {
+    $effect(() => {
         fetch(`/${page.params.part}/${page.params.slug}.md`)
             .then(res => res.text())
             .then(text => textContent = text)
