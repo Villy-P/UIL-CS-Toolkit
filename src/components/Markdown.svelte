@@ -1,12 +1,18 @@
 <script lang="ts">
     import markdownit from 'markdown-it';
+    import markdownit_hightlightjs from 'markdown-it-highlightjs';
+
+    import hljs from 'highlight.js/lib/core';
+    import java from 'highlight.js/lib/languages/javascript';
+	import { onMount } from 'svelte';
 
     let { content }: {
         content: string;
     } = $props();
 
     function convertMarkdownToHTML(markdown: string) {
-        const md = markdownit();
+        hljs.registerLanguage('javascript', java)
+        const md = markdownit().use(markdownit_hightlightjs, { hljs });
         return md.render(markdown);
     }
 </script>
@@ -15,9 +21,4 @@
     {@html convertMarkdownToHTML(content)}
 {:else}
     <p class="text-center">No content to display</p>
-{/if}
-
-<!-- Workaround to prevent unused class error -->
-{#if false}
-    <code class="code"></code>
 {/if}
