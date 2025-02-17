@@ -6,5 +6,15 @@
 </script>
 
 <Navbar/>
-{@render children()}
+<div class="mt-14 min-h-[calc(100vh-120px)] wrapper">
+	{@render children()}
+</div>
 <Footer/>
+
+
+<style>
+	.wrapper:after {
+		content: "";
+		display: block;
+	}
+</style>
