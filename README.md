@@ -2,7 +2,7 @@
 
 An all-in-one toolkit for everything you need for the University Interscholastic League Computer Science Competition, from cheatsheets and guides about important topics, to questions directly from UIL tests to help you improve.
 
-Visit the website in the Github header to get started!
+Visit the [website](https://uil-cs-toolkit.vercel.app) to get started!
 
 ## Features
 
