@@ -1,5 +1,6 @@
 <script>
 	import Button from "../components/Button.svelte";
+	import SEO from "../components/SEO.svelte";
 	import UnderlineButton from "../components/UnderlineButton.svelte";
 </script>
 
@@ -30,3 +31,5 @@
         <Button text="View Topics" href="/topics" arrow className="m-auto mt-3"/>
     </div>
 </div>
+
+<SEO title="UIL CS Cheatsheet" description="An all-in-one toolkit for everything you need for the University Interscholastic League Computer Science Competition, from cheatsheets and guides about important topics, to questions directly from UIL tests to help you improve."/>

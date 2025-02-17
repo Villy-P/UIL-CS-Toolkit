@@ -1,4 +1,5 @@
 <script lang="ts">
+	import SEO from './../../../../components/SEO.svelte';
     import { page } from '$app/state';
     import { topics } from '../../../../data/topics';
 	import Markdown from '../../../../components/Markdown.svelte';
@@ -14,6 +15,10 @@
             .then(text => textContent = text)
             .catch(err => console.error(err));
     });
+
+    function capitalize(s: string) {
+        return s.charAt(0).toUpperCase() + s.slice(1);
+    }
 </script>
 
 {#snippet partSelection(part: string)}
@@ -53,3 +58,5 @@
         {/if}
     </div>
 {/if}
+
+<SEO title="{capitalize(page.params.slug)} - {capitalize(page.params.part)}"/>
