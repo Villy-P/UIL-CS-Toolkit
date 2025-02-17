@@ -1,7 +1,8 @@
 <script lang="ts">
     import { page } from '$app/state';
-    import { goto } from '$app/navigation';
     import { topics } from '../../../../data/topics';
+    import strings from '../../../../../strings/cheatsheet.md?raw';
+	import Markdown from '../../../../components/Markdown.svelte';
 
     const topic: number | null = topics[page.params.slug];
 </script>
@@ -21,7 +22,7 @@
 {:else}
     <h1 class="capitalize text-center py-10">{page.params.slug}</h1>
     <div class="flex flex-col gap-4 w-11/12 m-auto pb-2">
-        <div class="flex w-11/12 m-auto">
+        <div class="flex w-full m-auto">
             {#if (topic & 100) === 100}
                 {@render partSelection('cheatsheet')}
             {/if}
@@ -32,5 +33,6 @@
                 {@render partSelection('questions')}
             {/if}
         </div>
+        <Markdown content={strings}/>
     </div>
 {/if}
