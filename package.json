@@ -20,6 +20,7 @@
 		"@sveltejs/kit": "^2.16.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@tailwindcss/vite": "^4.0.0",
+		"@types/gtag.js": "^0.0.20",
 		"@types/markdown-it": "^14.1.2",
 		"@types/node": "^22.13.4",
 		"eslint": "^9.18.0",

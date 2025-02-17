@@ -1,7 +1,7 @@
 <script lang="ts">
     import { page } from '$app/state';
 
-    const websiteName = "https://www.uil-cs-cheatsheet.vercel.app";
+    const websiteName = "https://www.uil-cs-toolkit.vercel.app";
   
 	interface Props {
 		title?: string;
@@ -9,7 +9,7 @@
 		image?: any;
 	}
 
-	let { title = "Home | Example.com", description = "“Description of your website.”", image = `${websiteName}/favicon.png` }: Props = $props();
+	let { title = "Home | Example.com", description = "“Description of your website.”", image = `${websiteName}/favicon.webp` }: Props = $props();
 </script>
   
 <svelte:head>
