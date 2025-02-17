@@ -7,7 +7,7 @@
 </script>
 
 {#snippet partSelection(part: string)}
-    <a class="!text-white grow flex justify-center pb-2 border-b-2 {page.params.part === part ? 'border-gray-300' : 'border-gray-500'} cursor-pointer" href="{part}">
+    <a class="!text-white grow flex justify-center pb-2 border-b-2 {page.params.part === part ? 'border-gray-300' : 'border-gray-500'} cursor-pointer capitalize" href="{part}">
         {part}
     </a>
 {/snippet}
