@@ -1,6 +1,6 @@
 # Questions on Strings
 
-## Question #1:
+## Question #1
 
 ``` java
 String t = "MississippiBurning";
@@ -16,12 +16,13 @@ What is output by the code above?
 4. `MississippiBirning`
 5. There is no output due to an error
 
-<details> 
-    <summary>Answer </summary>
-    2. <code>MUssUssUppUBurnUng</code>
-</details>
++++ Answer
 
-## Question #2:
+- `MUssUssUppUBurnUng`
+
++++
+
+## Question #2
 
 ``` java
 String s = "pneumonoultramicroscop"+
@@ -40,8 +41,8 @@ What is output by the code segment above?
 4. `pneumonoul`
 5. There is no output due to an error.
 
-<details> 
-    <summary>Answer </summary>
-    2. <code>noconiosis</code>
-</details>
++++ Answer
 
+1. `noconiosis`
+
++++

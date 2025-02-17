@@ -13,7 +13,7 @@
 Strings are **immutable** (cannot change)
 Strings are **objects** (not primatives)
 
-```java
+``` javascript
 // Creation
 String s = "Hello, World!";
 s = "Change the value";

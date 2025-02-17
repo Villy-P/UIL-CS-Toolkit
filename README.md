@@ -1,25 +1,19 @@
-# UIL-CS-Toolkit
+# UIL CS Cheatsheet
 
-A cheatsheet for every topic you need to know for the UIL Computer Science Multiple Choice Exams
+An all-in-one toolkit for everything you need for the University Interscholastic League Computer Science Competition, from cheatsheets and guides about important topics, to questions directly from UIL tests to help you improve.
 
-## How to use
+Visit the website in the Github header to get started!
 
-For every topics there are three different types of files that can appear:
+## Features
 
-1. Cheatsheets: Quick and consice things that you should know for the test.
-2. Guides: More indepth guide for people new to the topic.
-3. Questions: Questions you can try to perfect your skills.
+* Resources --- View Resources relating to Java topics. This can range from other websites to practice Java programming, to Java fundamentals, to focusing on certain subtopics like strings or bases. Practice programming with LeetCode or study Java fundamentals with W3Schools
+* Reference Sheet --- Check out reference material that is given to you on the day of the UIL competition.
+* Topics --- View different topics to help you get better, from strings, arrays, bases, Big O, etc. Quickly go over important topics using cheatsheets and view long form resources for learning more about topics.
 
-Heres a list of different topics (Note that some topics don't have certain files, they may be coming soon):
+## Topic List
 
-| Topic                       | Cheatsheet                      | Guide                 | Questions                   |
-| --------------------------- | ------------------------------- | --------------------- | --------------------------- |
-| [Bases](./bases/)           | [X](./bases/cheatsheet.md)      | [X](./bases/guide.md) | [X](./bases/questions.md)   |
-| [BigO Notation](./bigo/)    | [X](./bigo/cheatsheet.md)       | N/A                   | N/A                         |
-| [Math](./math/)             | [X](./math/)                    | N/A                   | N/A                         |
-| [Primitives](./primitives/) | [X](./primitives/cheatsheet.md) | N/A                   | N/A                         |
-| [Strings](./strings/)       | [X](./strings/cheatsheet.md)    | N/A                   | [X](./strings/questions.md) |
-
-There is a [global cheatsheet](./cheatsheet.md) with all cheatsheets combined into one.
-
-Also check out the [Class Reference Sheet](./class-reference-sheet.pdf). You get one at every competition.
+* Bases
+* BigO
+* Math
+* Primitives
+* Strings
