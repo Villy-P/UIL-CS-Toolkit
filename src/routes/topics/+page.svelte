@@ -1,4 +1,5 @@
 <script lang="ts">
+	import SEO from './../../components/SEO.svelte';
     import { topics } from '../../data/topics';
 </script>
 
@@ -13,3 +14,5 @@
         </a>
     {/each}
 </div>
+
+<SEO title="Topics" description="This page contains a list of all current topics covered on the UIL test. Each one contains a cheatsheet, and may contain a guide over the topic or questions relating to the topic to improve your skills."/>
