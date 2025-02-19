@@ -4,6 +4,9 @@
         <a class="h-full flex items-center px-5 hover:bg-gray-950 navitem" href="/topics">Topics</a>
         <a class="h-full flex items-center px-5 hover:bg-gray-950 navitem" href="/resources">Resources</a>
         <a class="h-full flex items-center px-5 hover:bg-gray-950 navitem" href="/reference">Reference Sheet</a>
+        <a class="h-full flex items-center px-5 hover:bg-gray-950 navitem" href="https://github.com/Villy-P/UIL-CS-Toolkit" target="_blank">
+            <img class="h-8" src="/social/github-mark-white.svg" alt="Github Page"/>
+        </a>
     </div>
 </nav>
 
