@@ -4,7 +4,7 @@ Use these resources to practice for upcoming UIL tests, along with learning more
 
 ## Links
 
-### Places to Practice
+### Places to Practice/Compete
 
 - [CodingBat](https://codingbat.com/java)
   - Good for beginners
@@ -15,6 +15,20 @@ Use these resources to practice for upcoming UIL tests, along with learning more
 - [Leetcode](https://leetcode.com/)
   - Far more challenging questions than others listed
   - Helpful for the programming section of the competition
+- [USACO](https://usaco.org/)
+  - Extremely Good for practicing programming
+- [Codeforces](https://codeforces.com/)
+- [AtCoder](https://atcoder.jp/)
+- [HackerEarth](https://hackerearth.com/)
+- [Kattis](https://open.kattis.com/)
+- [Virtual Judge](https://vjudge.net/)
+- [CS Academy](https://csacademy.com/)
+- [CodeChef](https://codechef.com/)
+- [Topcoder](https://topcoder.com/)
+- [Timus Online Judge](https://acm.timus.ru/)
+- [TLX](https://tlx.toki.id/)
+- [SPOJ](https://spoj.com/)
+- [DMOJ](https://dmoj.ca/)
 
 ### Documention
 
