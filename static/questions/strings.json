@@ -1,7 +1,7 @@
 {
     "questions": [
         {
-            "question": "``` java\nString t = \"MississippiBurning\";\nt.replaceAll(\"i\",\"U\");\nout.println(t);```",
+            "question": "``` java\nString t = \"MississippiBurning\";\nt.replaceAll(\"i\",\"U\");\nout.println(t);\n```\n\nWhat is output by the code segment above?",
             "answers": [
                 "`MississippiBurning`",
                 "`MUssUssUppUBurnUng`",
@@ -12,7 +12,7 @@
             "correct": 0,
             "explanation": "The `replaceAll` method returns a new string with the replacement made. The original string is not modified. The code should be `t = t.replaceAll(\"i\",\"U\");`. Remember that strings are immutable."
         }, {
-            "question": "``` java\nString s = \"pneumonoultramicroscop\"+\n           \"icsilicovolcanoconiosis\";\nwhile (s.length() > 10) {\n    s = s.substring(3);\n}\nout.println(s);\n```",
+            "question": "``` java\nString s = \"pneumonoultramicroscop\"+\n           \"icsilicovolcanoconiosis\";\nwhile (s.length() > 10) {\n    s = s.substring(3);\n}\nout.println(s);\n```\n\nWhat is output by the code segment above?",
             "answers": [
                 "`oconiosis`",
                 "`noconiosis`",

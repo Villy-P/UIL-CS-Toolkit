@@ -4,16 +4,26 @@
     import { topics } from '../../../../data/topics';
 	import Markdown from '../../../../components/Markdown.svelte';
 	import { onMount } from 'svelte';
+	import type { Question } from '../../../../types/question';
+	import QuestionContent from '../../../../components/QuestionContent.svelte';
 
     const topic: number | null = topics[page.params.slug];
 
-    let textContent: undefined | string = $state(undefined);
+    let textContent: undefined | string | Question[] = $state(undefined);
 
     $effect(() => {
-        fetch(`/${page.params.part}/${page.params.slug}.md`)
-            .then(res => res.text())
-            .then(text => textContent = text)
-            .catch(err => console.error(err));
+        if (page.params.part !== "questions") {
+            fetch(`/${page.params.part}/${page.params.slug}.md`)
+                .then(res => res.text())
+                .then(text => textContent = text)
+                .catch(err => console.error(err));
+        } else {
+            fetch(`/${page.params.part}/${page.params.slug}.json`)
+                .then(res => res.text())
+                .then(text => textContent = text)
+                .then(() => textContent = JSON.parse(textContent as string).questions)
+                .catch(err => console.error(err));
+        }
     });
 
     function capitalize(s: string) {
@@ -53,8 +63,12 @@
                 {@render partSelection('questions')}
             {/if}
         </div>
-        {#if textContent}
+        {#if textContent && typeof textContent === 'string'}
             <Markdown content={textContent}/>
+        {:else if textContent && typeof textContent === 'object'}
+            {#each textContent as question, index}
+                <QuestionContent {question} {index}/>
+            {/each}
         {/if}
     </div>
 {/if}
