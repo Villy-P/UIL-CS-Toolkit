@@ -12,6 +12,6 @@ Which of these is NOT equivalent to `1100011₂ + 10011101₂`?
 
 +++ Answer
 
-1. `1000000002`
+1. `1000000002₂`
 
 +++
