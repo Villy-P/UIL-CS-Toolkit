@@ -22,7 +22,7 @@ Complexities next to each other are added. For example, a `O(n)` algorithm next 
 
 ## Time Complexities (in order from fastest to slowest)
 
-![Image](../assets/bigo.png)
+![BigO Time Complexity Graph](/assets/bigo.png)
 
 ### `O(1)` - Constant Time
 
