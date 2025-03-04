@@ -17,3 +17,16 @@ Visit the [website](https://uil-cs-toolkit.vercel.app) to get started!
 * Math
 * Primitives
 * Strings
+
+## Run Locally
+
+If you'd like to run UIL CS Toolkit on your own computer, you'll need `NodeJS` installed on your computer.
+
+After you've done that, clone the repo wherever you'd like, then run these commands:
+
+``` bash
+npm i
+npm run dev -- --open
+```
+
+The website should automatically open in your default browser
