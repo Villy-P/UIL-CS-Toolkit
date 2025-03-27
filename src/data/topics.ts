@@ -3,6 +3,7 @@ type TopicScores = {
 };
 
 export const topics: TopicScores = {
+    ascii: 100,
     bases: 111,
     bigo: 100,
     math: 100,
