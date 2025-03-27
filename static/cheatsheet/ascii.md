@@ -2,6 +2,20 @@
 
 You can find an ASCII table [here](https://www.asciitable.com) or down below
 
+## Important ASCII Values to Memorize
+
+``` txt
+32 --- Space
+48 --- 0
+65 --- A
+97 --- a
+```
+
+It is VERY important that you memorize each of these.
+If you know these values, you can find any number/letter by calculating the offset from these four values.
+
+## Full ASCII Table
+
 | Dec | Hx  | Oct | Char                            |
 | --- | --- | --- | ------------------------------- |
 | 0   | 00  | 000 | NUL (null)                      |
