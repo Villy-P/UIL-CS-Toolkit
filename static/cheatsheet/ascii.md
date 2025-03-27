@@ -1,5 +1,9 @@
 # ASCII Table
 
+- [ASCII Table](#ascii-table)
+  - [Important ASCII Values to Memorize](#important-ascii-values-to-memorize)
+  - [Full ASCII Table](#full-ascii-table)
+
 You can find an ASCII table [here](https://www.asciitable.com) or down below
 
 ## Important ASCII Values to Memorize
