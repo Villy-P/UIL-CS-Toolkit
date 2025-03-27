@@ -48,6 +48,8 @@
 {:else}
     {#if page.params.slug === 'bigo'}
         <h1 class="capitalize text-center py-10">BigO</h1>
+    {:else if page.params.slug === "ascii"}
+        <h1 class="capitalize text-center py-10">ASCII</h1>
     {:else}
         <h1 class="capitalize text-center py-10">{page.params.slug}</h1>
     {/if}
