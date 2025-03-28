@@ -2,7 +2,16 @@
 
 - [Operator Precedence](#operator-precedence)
   - [Precedence Acronym \& Table](#precedence-acronym--table)
+  - [Increment and Decrement](#increment-and-decrement)
   - [Unary Logical NOT](#unary-logical-not)
+  - [Unary Bitwise NOT](#unary-bitwise-not)
+  - [Casting](#casting)
+  - [Shift](#shift)
+  - [`instanceof`](#instanceof)
+  - [Ternary](#ternary)
+  - [Assignment](#assignment)
+  - [Lambda](#lambda)
+  - [Switch](#switch)
 
 ## Precedence Acronym & Table
 
