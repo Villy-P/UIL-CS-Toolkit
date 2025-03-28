@@ -10,7 +10,8 @@
                 "There is no output due to an error"
             ],
             "correct": 0,
-            "explanation": "The `replaceAll` method returns a new string with the replacement made. The original string is not modified. The code should be `t = t.replaceAll(\"i\",\"U\");`. Remember that strings are immutable."
+            "explanation": "The `replaceAll` method returns a new string with the replacement made. The original string is not modified. The code should be `t = t.replaceAll(\"i\",\"U\");`. Remember that strings are immutable.",
+            "source": "UIL Test"
         }, {
             "question": "``` java\nString s = \"pneumonoultramicroscop\"+\n           \"icsilicovolcanoconiosis\";\nwhile (s.length() > 10) {\n    s = s.substring(3);\n}\nout.println(s);\n```\n\nWhat is output by the code segment above?",
             "answers": [
@@ -21,7 +22,8 @@
                 "There is no output due to an error."
             ],
             "correct": 1,
-            "explanation": "The code will remove the first 3 characters of the string until the length of the string is less than or equal to 10. The output will be `noconiosis`."
+            "explanation": "The code will remove the first 3 characters of the string until the length of the string is less than or equal to 10. The output will be `noconiosis`.",
+            "source": "UIL Test"
         }
     ]
 }
