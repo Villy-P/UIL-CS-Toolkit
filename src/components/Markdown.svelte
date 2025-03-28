@@ -17,7 +17,7 @@
 
     function convertMarkdownToHTML(markdown: string) {
         hljs.registerLanguage('javascript', java)
-        const md = markdownit().use(markdownit_collapsible).use(markdownit_hightlightjs, { hljs }).use(markdownit_anchor, { slugify: s => slugify(s) });
+        const md = markdownit({ html: true }).use(markdownit_collapsible).use(markdownit_hightlightjs, { hljs }).use(markdownit_anchor, { slugify: s => slugify(s) });
         return md.render(markdown);
     }
 </script>

@@ -12,3 +12,4 @@ Remember the acronym **POUCMA SHREAXOR LOTAL**:
 
 | Level | Operator(s) | Description | Associativity |
 | ----- | ----------- | ----------- | ------------- |
+| 16 | `()`  <br> `[]`  <br> `new`  <br> `.`  <br> `::` | parenthesis <br> array access <br> object creation <br> member access <br> method reference | left-to-right |

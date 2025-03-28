@@ -57,3 +57,11 @@ th, td {
 th {
     @apply !border-t-2;
 }
+
+blockquote {
+    @apply border-l-4 border-gray-500 pl-2 opacity-70;
+}
+
+td > br ~ * {
+    @apply my-1;
+}
