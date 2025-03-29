@@ -21,6 +21,7 @@ All constants are `doubles`
 ## Functions
 
 > Functions with a type of `number` accept types `double`, `float`, `int`, `long`
+> Functions with a type of `integer` accept types `int`, `long`
 > The return type will match the parameter type
 
 | Function Name      | Parameters                | Return                                              |
@@ -41,6 +42,7 @@ All constants are `doubles`
 | `Math.round()`     | `double a`                | `long`: `a` rounded to the nearest whole number     |
 | `Math.round()`     | `float a`                 | `int`: `a` rounded to the nearest whole number      |
 | `Math.random()`    |                           | `double`: Random number in the range `0 <= x < 1`   |
+| `Math.floorDiv()`  | `integer a`, `integer b`  | `int`: Performs Division, then floors the value     |
 
 ## Function Examples
 
