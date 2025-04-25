@@ -17,7 +17,7 @@
 		"@eslint/compat": "^1.2.5",
 		"@eslint/js": "^9.18.0",
 		"@sveltejs/adapter-auto": "^4.0.0",
-		"@sveltejs/kit": "^2.16.0",
+		"@sveltejs/kit": "^2.20.7",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@tailwindcss/vite": "^4.0.0",
 		"@types/gtag.js": "^0.0.20",
@@ -35,7 +35,7 @@
 		"tailwindcss": "^4.0.0",
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.20.0",
-		"vite": "^6.2.4"
+		"vite": "^6.3.3"
 	},
 	"dependencies": {
 		"@sindresorhus/slugify": "^2.2.1",
