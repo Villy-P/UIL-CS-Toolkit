@@ -52,9 +52,14 @@
 ## Modulus
 
 - `%` symbol takes the remainder
+- It will always take the sign of the first number
+- If the first number is less then the second, it will return the first
 
 ``` java
 16 % 2 == 0;
+-8 % 3 == -2
+8 % 3 == 2
+2 % 5 == 2
 x % 2 == 0;  // Is x even?
 x % 3 != 0;  // Is x NOT a multiple of 3
 ```
