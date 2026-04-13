@@ -1,12 +1,11 @@
 @import "tailwindcss";
+@import '@valerius_petrini/corekit-ui/layout.css';
 @import 'highlight.js/styles/base16/chalk.min.css';
 
-body {
-    background-color: #121212;
-    color: #fff;
-}
+@source '../node_modules/@valerius_petrini/corekit-ui/';
+@custom-variant dark (&:where(.dark, .dark *));
 
-h1 {
+/* h1 {
     @apply text-4xl font-extrabold;
 }
 
@@ -64,4 +63,4 @@ blockquote {
 
 td > br ~ * {
     @apply my-1;
-}
+} */
