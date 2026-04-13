@@ -3,6 +3,7 @@
 - [Math Cheatsheet](#math-cheatsheet)
   - [Constants](#constants)
   - [Functions](#functions)
+  - [Change of Base for Logarithms](#change-of-base-for-logarithms)
   - [Function Examples](#function-examples)
   - [Random in range](#random-in-range)
   - [Links](#links)
@@ -37,12 +38,26 @@ All constants are `doubles`
 | `Math.tan()`       | `double a` **in radians** | `double`: trigonometric tangent of an angle            |
 | `Math.toRadians()` | `double a` **in degrees** | `double`: Converts degrees to radians                  |
 | `Math.hypot()`     | `double a`, `double b`    | `double`: Hypotenuse of a triangle (`sqrt(x^2 + y^2)`) |
-| `Math.floor()`     | `double a`                | `double`: Truncates `a`                                |
+| `Math.floor()`     | `double a`                | `double`: Rounds `a` down                              |
 | `Math.ceil()`      | `double a`                | `double`: Rounds `a` up to the nearest whole number    |
 | `Math.round()`     | `double a`                | `long`: `a` rounded to the nearest whole number        |
 | `Math.round()`     | `float a`                 | `int`: `a` rounded to the nearest whole number         |
 | `Math.random()`    |                           | `double`: Random number in the range `0 <= x < 1`      |
 | `Math.floorDiv()`  | `integer a`, `integer b`  | `int`: Performs Division, then floors the value        |
+| `Math.exp()`       | `double a`                | `double`: Returns `e^a`                                |
+| `Math.log()`       | `double a`                | `double`: Returns the **natural logarithm** of `a`     |
+| `Math.log10()`     | `double a`                | `double`: Returns the base 10 logarithm of `a`         |
+
+## Change of Base for Logarithms
+
+- To find the logarithm with a custom base, use the change-of-base formula
+- `log_b(a)` = `ln(a)/ln(b)`
+
+``` java
+public static double logBase(double value, double base) {
+    return Math.log(value) / Math.log(base);
+}
+```
 
 ## Function Examples
 
@@ -67,7 +82,7 @@ Math.round(4.5) = 5;
 
 ``` java
 // Returns a number between min (inclusive) and max (inclusive)
-public static randInRange(int min, int max) {
+public static int randInRange(int min, int max) {
     return (int)(Math.random() * ((max - min) + 1)) + min;
 }
 ```
