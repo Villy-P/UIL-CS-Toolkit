@@ -1,14 +1,14 @@
 <script lang="ts">
 	import SEO from './../../../../components/SEO.svelte';
     import { page } from '$app/state';
-    import { topics } from '../../../../data/topics';
+    import { topics, type TopicData } from '../../../../data/topics';
 	import Markdown from '../../../../components/Markdown.svelte';
 	import { onMount } from 'svelte';
 	import type { Question } from '../../../../types/question';
 	import QuestionContent from '../../../../components/QuestionContent.svelte';
 	import { Button, Text } from '@valerius_petrini/corekit-ui';
 
-    const topic: number | null = topics[page.params.slug];
+    const topic = topics[page.params.slug];
 
     let textContent: undefined | string | Question[] = $state(undefined);
 
@@ -50,22 +50,16 @@
         </Button>
     </div>
 {:else}
-    {#if page.params.slug === 'bigo'}
-        <Text tag="h1" class="capitalize text-center py-10">BigO</Text>
-    {:else if page.params.slug === "ascii"}
-        <Text tag="h1" class="capitalize text-center py-10">ASCII</Text>
-    {:else}
-        <Text tag="h1" class="capitalize text-center py-10">{page.params.slug}</Text>
-    {/if}
+    <Text tag="h1" class="capitalize text-center py-10">{topic.name}</Text>
     <div class="flex flex-col gap-4 w-11/12 m-auto pb-2">
         <div class="flex w-full m-auto">
-            {#if (topic & 100) === 100}
+            {#if topic.cheatsheet}
                 {@render partSelection('cheatsheet')}
             {/if}
-            {#if (topic & 10) === 10}
+            {#if topic.guide}
                 {@render partSelection('guide')}
             {/if}
-            {#if (topic & 1) === 1}
+            {#if topic.questions}
                 {@render partSelection('questions')}
             {/if}
         </div>
