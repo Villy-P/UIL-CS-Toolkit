@@ -24,25 +24,25 @@ All constants are `doubles`
 > Functions with a type of `integer` accept types `int`, `long`
 > The return type will match the parameter type
 
-| Function Name      | Parameters                | Return                                              |
-| ------------------ | ------------------------- | --------------------------------------------------- |
-| `Math.abs() *`     | `number a`                | `number`: Absolute Value                            |
-| `Math.pow()`       | `double a`, `double b`    | `double`: `a` to the power of `b`                   |
-| `Math.sqrt()`      | `double a`                | `double`: The square root of `a`                    |
-| `Math.cbrt()`      | `double a`                | `double`: The cube root of `a`                      |
-| `Math.min()`       | `number a`, `number b`    | `number`: Smallest number between `a` and `b`       |
-| `Math.max()`       | `number a`, `number b`    | `number`: Largest number between `a` and `b`        |
-| `Math.sin()`       | `double a` **in radians** | `double`: trigonometric sine of an angle            |
-| `Math.cos()`       | `double a` **in radians** | `double`: trigonometric cosine of an angle          |
-| `Math.tan()`       | `double a` **in radians** | `double`: trigonometric tangent of an angle         |
-| `Math.toRadians()` | `double a` **in degrees** | `double`: Converts degrees to radians               |
-| `Math.hypot()`     | `double a`, `double b`    | `double`: Hypotenuse of a triangle (`sqrt(x2 +y2)`) |
-| `Math.floor()`     | `double a`                | `double`: Truncates `a`                             |
-| `Math.ceil()`      | `double a`                | `double`: Rounds `a` up to the nearest whole number |
-| `Math.round()`     | `double a`                | `long`: `a` rounded to the nearest whole number     |
-| `Math.round()`     | `float a`                 | `int`: `a` rounded to the nearest whole number      |
-| `Math.random()`    |                           | `double`: Random number in the range `0 <= x < 1`   |
-| `Math.floorDiv()`  | `integer a`, `integer b`  | `int`: Performs Division, then floors the value     |
+| Function Name      | Parameters                | Return                                                 |
+| ------------------ | ------------------------- | ------------------------------------------------------ |
+| `Math.abs() *`     | `number a`                | `number`: Absolute Value                               |
+| `Math.pow()`       | `double a`, `double b`    | `double`: `a` to the power of `b`                      |
+| `Math.sqrt()`      | `double a`                | `double`: The square root of `a`                       |
+| `Math.cbrt()`      | `double a`                | `double`: The cube root of `a`                         |
+| `Math.min()`       | `number a`, `number b`    | `number`: Smallest number between `a` and `b`          |
+| `Math.max()`       | `number a`, `number b`    | `number`: Largest number between `a` and `b`           |
+| `Math.sin()`       | `double a` **in radians** | `double`: trigonometric sine of an angle               |
+| `Math.cos()`       | `double a` **in radians** | `double`: trigonometric cosine of an angle             |
+| `Math.tan()`       | `double a` **in radians** | `double`: trigonometric tangent of an angle            |
+| `Math.toRadians()` | `double a` **in degrees** | `double`: Converts degrees to radians                  |
+| `Math.hypot()`     | `double a`, `double b`    | `double`: Hypotenuse of a triangle (`sqrt(x^2 + y^2)`) |
+| `Math.floor()`     | `double a`                | `double`: Truncates `a`                                |
+| `Math.ceil()`      | `double a`                | `double`: Rounds `a` up to the nearest whole number    |
+| `Math.round()`     | `double a`                | `long`: `a` rounded to the nearest whole number        |
+| `Math.round()`     | `float a`                 | `int`: `a` rounded to the nearest whole number         |
+| `Math.random()`    |                           | `double`: Random number in the range `0 <= x < 1`      |
+| `Math.floorDiv()`  | `integer a`, `integer b`  | `int`: Performs Division, then floors the value        |
 
 ## Function Examples
 
