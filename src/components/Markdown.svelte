@@ -23,7 +23,9 @@
 </script>
 
 {#if content}
-    {@html convertMarkdownToHTML(content)}
+    <div class="markdown-body text-main-text flex flex-col gap-2">
+        {@html convertMarkdownToHTML(content)}
+    </div>
 {:else}
     <p class="text-center">No content to display</p>
 {/if}

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { Question } from "../types/question";
 	import Markdown from "./Markdown.svelte";
+    import { Text } from '@valerius_petrini/corekit-ui';
 
     let { question, index }: {
         question: Question;
@@ -17,7 +18,7 @@
     }
 </script>
 
-<h1>Question #{index + 1}</h1>
+<Text tag="h3">Question #{index + 1}</Text>
 <Markdown content={question.question}/>
 <div class="flex flex-col gap-1">
     {#each question.answers as answer, index}

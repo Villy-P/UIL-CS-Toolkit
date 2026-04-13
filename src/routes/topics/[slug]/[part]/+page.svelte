@@ -6,6 +6,7 @@
 	import { onMount } from 'svelte';
 	import type { Question } from '../../../../types/question';
 	import QuestionContent from '../../../../components/QuestionContent.svelte';
+	import { Button, Text } from '@valerius_petrini/corekit-ui';
 
     const topic: number | null = topics[page.params.slug];
 
@@ -41,17 +42,20 @@
 
 {#if !topic}
     <div class="w-full min-h-[calc(100vh-120px)] flex items-center justify-center flex-col">
-        <h1 class="text-6xl font-extrabold">404</h1>
-        <p class="text-md">The topic you are looking for does not exist.</p>
-        <a href="/topics">Go to Topics Page</a>
+        <Text tag="h1">404</Text>
+        <Text>The topic you are looking for does not exist.</Text>
+        <Button href="/topics" color="blue">
+            Go to Topics Page
+            <img src="/icons/right-arrow.svg" class="w-4 h-4 ml-2 mt-0.5" alt="Right Arrow"/>
+        </Button>
     </div>
 {:else}
     {#if page.params.slug === 'bigo'}
-        <h1 class="capitalize text-center py-10">BigO</h1>
+        <Text tag="h1" class="capitalize text-center py-10">BigO</Text>
     {:else if page.params.slug === "ascii"}
-        <h1 class="capitalize text-center py-10">ASCII</h1>
+        <Text tag="h1" class="capitalize text-center py-10">ASCII</Text>
     {:else}
-        <h1 class="capitalize text-center py-10">{page.params.slug}</h1>
+        <Text tag="h1" class="capitalize text-center py-10">{page.params.slug}</Text>
     {/if}
     <div class="flex flex-col gap-4 w-11/12 m-auto pb-2">
         <div class="flex w-full m-auto">
