@@ -73,4 +73,4 @@
     </div>
 {/if}
 
-<SEO title="{capitalize(page.params.slug)} - {capitalize(page.params.part)}"/>
+<SEO title="{topic.name} - {capitalize(page.params.part)}"/>
