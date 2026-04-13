@@ -2,6 +2,7 @@
 
 - [Primitives Cheatsheet](#primitives-cheatsheet)
   - [Primitive Types](#primitive-types)
+  - [Assignment Compatibility Chart](#assignment-compatibility-chart)
   - [Integer Division](#integer-division)
   - [Modulus](#modulus)
   - [Number Suffixes](#number-suffixes)
@@ -20,6 +21,17 @@
 | `long`    | `64` | `Yes`  | `-9223372036854775808` to `9223372036854775807`          |
 | `float`   | `32` |        | `1.40239846e-45` to `3.40282347e+38`                     |
 | `double`  | `64` |        | `4.94065645841246544e-324` to `1.79769313486231570e+308` |
+
+## Assignment Compatibility Chart
+
+| From/To | `byte`      | `char`      | `short`     | `int`       | `long`      |
+| ------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| `byte`  | Assignable  | Cast Needed | Cast Needed | Cast Needed | Cast Needed |
+| `char`  | Cast Needed | Assignable  | Cast Needed | Cast Needed | Cast Needed |
+| `short` | Assignable  | Cast Needed | Assignable  | Cast Needed | Cast Needed |
+| `int`   | Assignable  | Assignable  | Assignable  | Assignable  | Cast Needed |
+| `long`  | Assignable  | Assignable  | Assignable  | Assignable  | Assignable  |
+
 
 ## Integer Division
 
