@@ -36,6 +36,16 @@
             "correct": 2,
             "explanation": "First off, since `s2` has no `E`'s, as it was converted to lowercase, `split` will return an array with size `1`. When `s1` is split by `E`'s, it splits the string into this array: `[\"h\", \"llo th\", \"re... G\", \"n\", \"ral K\", \"nobi\"]`, which has a length of `6`. `6 - 1 = 5`, so our answer is `5`.",
             "source": "UIL Computer Science Written Test - 2025 Invitational B"
+        }, {
+            "question": "``` java\nout.printf(\"%.3f\",2.34567);\n```",
+            "answers": [
+                "octavio",
+                "max",
+                "dylan"
+            ],
+            "correct": 0,
+            "explanation": "the tallest",
+            "source": "UIL Computer Science Written Test - 2025 Invitational B"
         }
     ]
 }
