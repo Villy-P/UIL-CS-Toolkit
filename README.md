@@ -17,6 +17,7 @@ Visit the [website](https://uil-cs-toolkit.vercel.app) to get started!
 * Math
 * Primitives
 * Strings
+* ASCII
 
 ## Run Locally
 
