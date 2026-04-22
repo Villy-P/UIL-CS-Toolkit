@@ -22,6 +22,10 @@ export const topics: TopicData = {
         name: "Big O Notation",
         cheatsheet: true,
     },
+    boxing: {
+        name: "Autoboxing/Unboxing",
+        cheatsheet: true,
+    },
     math: {
         name: "Mathematical Concepts",
         cheatsheet: true,
