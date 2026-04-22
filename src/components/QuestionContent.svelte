@@ -20,6 +20,9 @@
 
 <Text tag="h3">Question #{index + 1}</Text>
 <Markdown content={question.question}/>
+{#if question.code}
+    <Markdown content={"```java\n" + question.code.join("\n") + "\n```"}/>
+{/if}
 <div class="flex flex-col gap-1">
     {#each question.answers as answer, index}
         <button class="bg-[#151515] p-2 rounded-md w-96 cursor-pointer hover:bg-[#1f1f1f] my-0.5" onclick={() => btnClick(index)}>

@@ -1,7 +1,12 @@
 {
     "questions": [
         {
-            "question": "What is the output by the code below? \n ```java\nlong num1 = Math.floorDiv(7, 3);\ndouble num2 = Math.pow(2, 3);\nout.println(Math.min(num1, num2));\n```",
+            "question": "What is the output by the code below?",
+            "code": [
+                "long num1 = Math.floorDiv(7, 3);",
+                "double num2 = Math.pow(2, 3);",
+                "out.println(Math.min(num1, num2));"
+            ],
             "answers": [
                 "`2`",
                 "`2.0`",

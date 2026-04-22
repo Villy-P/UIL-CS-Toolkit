@@ -1,7 +1,10 @@
 {
     "questions": [
         {
-            "question": "What is the output by the code below? \n ```java\nout.println((-17 % 7) | (11 << 3));\n```",
+            "question": "What is the output by the code below?",
+            "code": [
+                "out.println((-17 % 7) | (11 << 3));"
+            ],
             "answers": [
                 "`91`",
                 "`-3`",

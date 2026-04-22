@@ -1,7 +1,12 @@
 {
     "questions": [
         {
-            "question": "``` java\nString t = \"MississippiBurning\";\nt.replaceAll(\"i\",\"U\");\nout.println(t);\n```\n\nWhat is output by the code segment above?",
+            "question": "What is output by the code segment below?",
+            "code": [
+                "String t = \"MississippiBurning\";",
+                "t.replaceAll(\"i\",\"U\");",
+                "out.println(t);"
+            ],
             "answers": [
                 "`MississippiBurning`",
                 "`MUssUssUppUBurnUng`",
@@ -13,7 +18,15 @@
             "explanation": "The `replaceAll` method returns a new string with the replacement made. The original string is not modified. The code should be `t = t.replaceAll(\"i\",\"U\");`. Remember that strings are immutable.",
             "source": "UIL Test"
         }, {
-            "question": "``` java\nString s = \"pneumonoultramicroscop\"+\n           \"icsilicovolcanoconiosis\";\nwhile (s.length() > 10) {\n    s = s.substring(3);\n}\nout.println(s);\n```\n\nWhat is output by the code segment above?",
+            "question": "What is output by the code segment below?",
+            "code": [
+                "String s = \"pneumonoultramicroscop\"+",
+                "           \"icsilicovolcanoconiosis\";",
+                "while (s.length() > 10) {",
+                "    s = s.substring(3);",
+                "}",
+                "out.println(s);"
+            ],
             "answers": [
                 "`oconiosis`",
                 "`noconiosis`",
@@ -25,7 +38,17 @@
             "explanation": "The code will remove the first 3 characters of the string until the length of the string is less than or equal to 10. The output will be `noconiosis`.",
             "source": "UIL Test"
         }, {
-            "question": "Assuming that indented lines are continuations of the previous line, what is the output by the code to the right?\n```java\nString s1 =\n\t\"hEllo thEre... GEnEral KEnobi\";\nString s2 = s1.toLowerCase();\nString[] arr1 = s1.split(\"E\");\nString[] arr2 = s2.split(\"E\");\nint diff = arr1.length -\n\tarr2.length;\nout.println(diff);",
+            "question": "Assuming that indented lines are continuations of the previous line, what is the output by the code to the right?",
+            "code": [
+                "String s1 =",
+                "\t\"hEllo thEre... GEnEral KEnobi\";",
+                "String s2 = s1.toLowerCase();",
+                "String[] arr1 = s1.split(\"E\");",
+                "String[] arr2 = s2.split(\"E\");",
+                "int diff = arr1.length -",
+                "\tarr2.length;",
+                "out.println(diff);"
+            ],
             "answers": [
                 "`-6`",
                 "`-5`",
