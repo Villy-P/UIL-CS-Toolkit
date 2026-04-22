@@ -8,7 +8,7 @@
     <Text tag="h1">Topics</Text>
     <Text>This page contains a list of all current topics covered on the UIL test. Each one contains a cheatsheet, and may contain a guide over the topic or questions relating to the topic to improve your skills.</Text>
 </div>
-<div class="w-full flex justify-center pt-10 gap-5">
+<div class="w-full flex justify-center pt-10 gap-5 flex-wrap">
     {#each Object.entries(topics) as [key, topic]}
         <Button variant="outline" color="white" href="/topics/{key}/cheatsheet">
             {topic.name}

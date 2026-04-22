@@ -48,6 +48,14 @@ export const topics: TopicData = {
     switch: {
         name: "Switch Statements",
         cheatsheet: true,
+    },
+    bst: {
+        name: "Binary Search Trees",
+        cheatsheet: true,
+    },
+    sorting: {
+        name: "Sorting Algorithms",
+        cheatsheet: true,
     }
 };
 
