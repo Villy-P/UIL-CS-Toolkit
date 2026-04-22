@@ -14,7 +14,7 @@
 | Radix Sort     | O(nk)       | O(nk)        | O(nk)       | O(n + k)         |
 | Counting Sort  | O(n + k)    | O(n + k)     | O(n + k)    | O(k)             |
 
-## Insertion Sort#
+## Insertion Sort
 
 ### Implementation
 
