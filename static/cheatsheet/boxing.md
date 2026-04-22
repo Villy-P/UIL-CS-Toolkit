@@ -1,5 +1,13 @@
 # Autoboxing/Unboxing
 
+- [Autoboxing/Unboxing](#autoboxingunboxing)
+  - [Autoboxing](#autoboxing)
+    - [Common Uses](#common-uses)
+  - [Unboxing](#unboxing)
+    - [Common Uses](#common-uses-1)
+  - [Common Errors](#common-errors)
+    - [`==` Schenanigans](#-schenanigans)
+
 ## Autoboxing
 
 Java will convert primitives to objects when necessary:

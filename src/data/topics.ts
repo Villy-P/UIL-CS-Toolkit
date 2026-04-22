@@ -44,6 +44,10 @@ export const topics: TopicData = {
         name: "Strings",
         cheatsheet: true,
         questions: true,
+    },
+    switch: {
+        name: "Switch Statements",
+        cheatsheet: true,
     }
 };
 
