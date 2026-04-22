@@ -1,5 +1,12 @@
 # Sorting Algorithms
 
+- [Sorting Algorithms](#sorting-algorithms)
+  - [Big O Table](#big-o-table)
+  - [Insertion Sort](#insertion-sort)
+    - [Implementation](#implementation)
+    - [Steps](#steps)
+    - [Time Complexity](#time-complexity)
+
 ## Big O Table
 
 | Algorithm      | Best Case   | Average Case | Worst Case  | Space Complexity |
