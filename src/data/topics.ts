@@ -56,6 +56,10 @@ export const topics: TopicData = {
     sorting: {
         name: "Sorting Algorithms",
         cheatsheet: true,
+    },
+    classes: {
+        name: "Classes and Objects",
+        cheatsheet: true,
     }
 };
 
