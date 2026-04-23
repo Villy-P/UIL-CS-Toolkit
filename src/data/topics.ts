@@ -73,6 +73,10 @@ export const topics: TopicData = {
         name: "Boolean Algebra",
         cheatsheet: true,
     },
+    formatting: {
+        name: "String Formatting",
+        cheatsheet: true,
+    }
 };
 
 // export const topics: TopicScores = {
