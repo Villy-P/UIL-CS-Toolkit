@@ -4,6 +4,9 @@
   - [Constants](#constants)
   - [Functions](#functions)
   - [Change of Base for Logarithms](#change-of-base-for-logarithms)
+  - [NaN](#nan)
+    - [Properties](#properties)
+    - [Producing NaN](#producing-nan)
   - [Function Examples](#function-examples)
   - [Random in range](#random-in-range)
   - [Links](#links)
@@ -58,6 +61,26 @@ public static double logBase(double value, double base) {
     return Math.log(value) / Math.log(base);
 }
 ```
+
+## NaN
+
+`NaN` is a special value defined for the floating point classes `Double` and `Float`.
+
+### Properties
+
+* `NaN` is not equal to anything (`NaN` == `NaN` will return `false`)
+* Any arithmetic involving `NaN` will return `NaN` (`NaN` + 4 will return `NaN`)
+* You can check if something is `NaN` by doing `Double.isNan()`, `Float.isNan()`, or `x != x`
+
+### Producing NaN
+
+Usually, NaN is produced when doing a mathematical operation that would produce `undefined` or `DNE`.
+Here are ways NaN can occur from mathematical operations.
+
+* **Indeterminate Forms** like `0.0 / 0.0`
+* **Complex Numbers** like `Math.sqrt(-1)`
+* **Invalid Logarithm** like `Math.log(-10)`
+* **Infinity Math** like `Infinity - Infinity`
 
 ## Function Examples
 
