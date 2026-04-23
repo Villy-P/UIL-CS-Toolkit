@@ -69,6 +69,10 @@ export const topics: TopicData = {
         name: "Design Patterns",
         cheatsheet: true,
     },
+    booleanalgebra: {
+        name: "Boolean Algebra",
+        cheatsheet: true,
+    },
 };
 
 // export const topics: TopicScores = {
