@@ -60,6 +60,10 @@ export const topics: TopicData = {
     classes: {
         name: "Classes and Objects",
         cheatsheet: true,
+    },
+    generics: {
+        name: "Generics",
+        cheatsheet: true,
     }
 };
 
