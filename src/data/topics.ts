@@ -64,7 +64,11 @@ export const topics: TopicData = {
     generics: {
         name: "Generics",
         cheatsheet: true,
-    }
+    },
+    designpatterns: {
+        name: "Design Patterns",
+        cheatsheet: true,
+    },
 };
 
 // export const topics: TopicScores = {
