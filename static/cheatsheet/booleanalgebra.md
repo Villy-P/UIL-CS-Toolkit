@@ -43,9 +43,9 @@
 
 ### Exclusive Or / Xor
 
-| `P`   | `Q`   | `P \| Q` |
-| ----- | ----- | -------- |
-| False | False | True     |
-| False | True  | False    |
-| True  | False | False    |
-| True  | True  | True     |
+| `P`   | `Q`   | `P ^ Q` |
+| ----- | ----- | ------- |
+| False | False | True    |
+| False | True  | False   |
+| True  | False | False   |
+| True  | True  | True    |
