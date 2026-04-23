@@ -7,6 +7,7 @@
     - [Common Uses](#common-uses-1)
   - [Common Errors](#common-errors)
     - [`==` Schenanigans](#-schenanigans)
+    - [`Integer` and `Float`](#integer-and-float)
 
 ## Autoboxing
 
@@ -58,4 +59,16 @@ System.out.println(a.equals(b)); // true ← compares values
 
 As with all objects, only `.equals` will correctly compare if they are equal.
 
-One thing to take note of is that Java will cache objects from `-128` to `128`, meaning that if you create two `Integer` objects with the same value in that range at runtime, they will occupy the same memory address, causing `==` to return true.
+> One thing to take note of is that Java will cache objects from `-128` to `128`, meaning that if you create two `Integer` objects with the same value in that range at runtime, they will occupy the same memory address, causing `==` to return true.
+
+### `Integer` and `Float`
+
+``` java
+var f = new ArrayList<Float>();
+f.add( 3 );
+System.out.print( f.get(0) );
+```
+
+This code will produce an error because `3` is autoboxed into an `Integer`, but you cannot pass an `Integer` into a `Float`. Use `3f` instead so it autoboxes into a `Float`.
+
+Even if the `ArrayList` was of type `Byte` or `Double`, all numbers without suffixes will autobox to `Integer`s.
