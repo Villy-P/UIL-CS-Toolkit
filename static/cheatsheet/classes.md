@@ -7,8 +7,9 @@
 
 ## Definitions
 
-* Overriding - When a child class defines the same function as the parent class, with the exact same name as the parent function and the exact same parameters. When the function is called from an object definining the child class, the child function will be called
-* Overloading - When a class defines a function with the same name and different parameters. A child class may also overload a function, defining the same function as the parent but with different parameters.
+* **Overriding** - When a child class defines the same function as the parent class, with the exact same name as the parent function and the exact same parameters. When the function is called from an object definining the child class, the child function will be called
+* **Overloading** - When a class defines a function with the same name and different parameters. A child class may also overload a function, defining the same function as the parent but with different parameters.
+* **Encapsulation** - When you declare variables of a class `private` and provide access to that variable using `getters` and `setters`.
 
 ## Abstract Classes
 
