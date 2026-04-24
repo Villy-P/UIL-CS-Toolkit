@@ -1,6 +1,7 @@
 # Graph Theory
 
 - [Graph Theory](#graph-theory)
+  - [Definition](#definition)
   - [Spanning Tree](#spanning-tree)
   - [Adjancency Matrix](#adjancency-matrix)
   - [Algorithms](#algorithms)
@@ -9,6 +10,15 @@
     - [Ford-Fulkerson Algorithm](#ford-fulkerson-algorithm)
     - [Prim's Algorithm](#prims-algorithm)
     - [Big O](#big-o)
+
+## Definition
+
+* Undirected: The graph does not have arrows between vertices.
+* Directed: The graph does have arrows between vertices.
+* Unweighted: The graph does not have weights associated with edges.
+* Weighted: The graph has weights associated with the edges.
+* Acyclic: The graph has no cycles within it, every node cannot loop back to itself.
+* Cyclic: The graph has cycles withing in, a node can loop back to itself.
 
 ## Spanning Tree
 
