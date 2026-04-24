@@ -2,6 +2,7 @@
 
 - [Graph Theory](#graph-theory)
   - [Spanning Tree](#spanning-tree)
+  - [Adjancency Matrix](#adjancency-matrix)
   - [Algorithms](#algorithms)
     - [Kruskal's Algorithm](#kruskals-algorithm)
     - [Floyd-Warshall Algorithm](#floyd-warshall-algorithm)
@@ -16,6 +17,12 @@ Spanning Trees are subgraphs represented as a tree which contains all the vertic
 A mimimum spanning tree is a spanning tree that contains all vertices of a weigthed graph that has the lowest value.
 
 You can find the Minimum Spanning Tree using Kruskal's algorithm or Prim's algorithm.
+
+## Adjancency Matrix
+
+An adjancency matrix is a matrix of size `V^2` where a `1` represents an edge between the two nodes and a `0` represents no connection.
+
+A vertex cannot have a connection with itself, meaning the diagonal in the matrix starting from the top left to the bottom right will all be `0`.
 
 ## Algorithms
 
