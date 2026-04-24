@@ -5,10 +5,12 @@
   - [Spanning Tree](#spanning-tree)
   - [Adjancency Matrix](#adjancency-matrix)
   - [Algorithms](#algorithms)
+    - [Dijkstra's Algorithm](#dijkstras-algorithm)
     - [Kruskal's Algorithm](#kruskals-algorithm)
     - [Floyd-Warshall Algorithm](#floyd-warshall-algorithm)
     - [Ford-Fulkerson Algorithm](#ford-fulkerson-algorithm)
     - [Prim's Algorithm](#prims-algorithm)
+    - [Bellman-Ford Algorithm](#bellman-ford-algorithm)
     - [Big O](#big-o)
 
 ## Definition
@@ -36,6 +38,12 @@ A vertex cannot have a connection with itself, meaning the diagonal in the matri
 
 ## Algorithms
 
+### Dijkstra's Algorithm
+
+Dijkstra's Algorithm is an algorithm that computes the shortest paths from a source vertex to all other vertices in a weighted graph.
+
+This algorithm **cannot** handle negative weights.
+
 ### Kruskal's Algorithm
 
 Kruskal's algorithm is a greedy algorithm used to find the Minimum Spanning Tree of a connected, weighted, and undirected graph.
@@ -44,6 +52,8 @@ Kruskal's algorithm is a greedy algorithm used to find the Minimum Spanning Tree
 
 Floyd-Warshall algorithm is a technique used to find the shortest path between all pairs of vertices in a weighted graph.
 
+This algorithm can handle negative weights.
+
 ### Ford-Fulkerson Algorithm
 
 Ford-Fulkerson algorithmis an algorithm that computes the maximum flow of a flow network.
@@ -51,6 +61,12 @@ Ford-Fulkerson algorithmis an algorithm that computes the maximum flow of a flow
 ### Prim's Algorithm
 
 Prim's algorithm is a greedy algorithm used to find the Minimum Spanning Tree of a connected, weighted, and undirected graph.
+
+### Bellman-Ford Algorithm
+
+Bellman-Ford Algorithm is an algorithm that computes the shortest paths from a source vertex to all other vertices in a weighted graph.
+
+This algorithm can handle negative weights and can detect negative cycles.
 
 ### Big O
 
