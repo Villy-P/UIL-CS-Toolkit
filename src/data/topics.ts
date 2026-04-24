@@ -80,7 +80,11 @@ export const topics: TopicData = {
     graph: {
         name: "Graph Theory",
         cheatsheet: true,
-    }
+    },
+    builtinpackage: {
+        name: "Built-in Packages",
+        cheatsheet: true,
+    },
 };
 
 // export const topics: TopicScores = {

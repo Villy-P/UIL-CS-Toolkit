@@ -5,6 +5,10 @@
 @source '../node_modules/@valerius_petrini/corekit-ui/';
 @custom-variant dark (&:where(.dark, .dark *));
 
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+    @apply mt-3 mb-1;
+}
+
 .markdown-body h1 {
     @apply text-4xl font-extrabold;
 }
