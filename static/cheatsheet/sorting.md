@@ -17,7 +17,7 @@
 | Bubble Sort    | O(n)        | O(n^2)       | O(n^2)      | O(1)             |
 | Insertion Sort | O(n)        | O(n^2)       | O(n^2)      | O(1)             |
 | Selection Sort | O(n^2)      | O(n^2)       | O(n^2)      | O(1)             |
-| Tree Sort      | O(n log n)  | O(n log(n))  | O(n^2)      | O(n)             |
+| Tree Sort      | O(n log(n)) | O(n log(n))  | O(n^2)      | O(n)             |
 | Radix Sort     | O(nk)       | O(nk)        | O(nk)       | O(n + k)         |
 | Counting Sort  | O(n + k)    | O(n + k)     | O(n + k)    | O(k)             |
 

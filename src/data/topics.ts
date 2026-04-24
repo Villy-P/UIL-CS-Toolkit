@@ -76,6 +76,10 @@ export const topics: TopicData = {
     formatting: {
         name: "String Formatting",
         cheatsheet: true,
+    },
+    graph: {
+        name: "Graph Theory",
+        cheatsheet: true,
     }
 };
 
